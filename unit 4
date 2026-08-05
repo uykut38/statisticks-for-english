@@ -1,0 +1,196 @@
+Lesson 4
+
+Organizing Data
+
+Raw Data = Disorder
+
+Organized Data = Understanding + Decision Making
+
+From Raw Data to Organized Data
+
+Raw Data
+|
+v
+Sorting
+|
+v
+Frequency Table
+|
+v
+Diagram (Graph)
+
+--------------------------------------------------
+
+Frequency
+
+Frequency is the number of times a particular value or event appears in a data set. In simple words, it is the count of occurrences.
+
+Example 1
+
+Ten students were asked which fruit they like most.
+
+Answers
+
+Apple
+Apple
+Banana
+Apple
+Grape
+Banana
+Apple
+Grape
+Apple
+Banana
+
+Frequency
+
+Apple : 5
+
+Banana : 3
+
+Grape : 2
+
+--------------------------------------------------
+
+Frequency Table
+
+Fruit : Apple
+Count Marks : |||||
+Frequency : 5
+Relative Frequency : 50%
+
+Fruit : Banana
+Count Marks : |||
+Frequency : 3
+Relative Frequency : 30%
+
+Fruit : Grape
+Count Marks : ||
+Frequency : 2
+Relative Frequency : 20%
+
+Total
+
+Count Marks : ||||||||||
+Frequency : 10
+Relative Frequency : 100%
+
+--------------------------------------------------
+
+Types of Frequency
+
+1. Absolute Frequency
+
+Absolute frequency is the total number of times a value appears in a data set.
+
+Example
+
+Absolute Frequency of Apple = 5
+
+2. Relative Frequency
+
+Relative frequency is the proportion or percentage of a value compared with the total number of observations.
+
+Formula
+
+Relative Frequency = Frequency / Total Number of Observations
+
+Example
+
+5 / 10 = 0.50 = 50%
+
+--------------------------------------------------
+
+Grouped Frequency Example
+
+Score 60 - 70 : 4 students
+
+Score 71 - 80 : 12 students
+
+Score 81 - 90 : 8 students
+
+Conclusion
+
+Frequency helps us identify which values occur most often and which occur least often.
+
+==================================================
+
+Class Interval
+
+A class interval is a range of values used to group similar data together, making large data sets easier to organize and understand.
+
+--------------------------------------------------
+
+Why Do We Use Class Intervals?
+
+Suppose we measure the heights of 100 students.
+
+Instead of listing every height separately, we group them into intervals.
+
+150 - 159
+
+160 - 169
+
+170 - 179
+
+This makes the data easier to read and analyze.
+
+--------------------------------------------------
+
+Example
+
+Class Interval : 60 - 69
+Frequency : 5
+
+Class Interval : 70 - 79
+Frequency : 12
+
+Class Interval : 80 - 89
+Frequency : 8
+
+Class Interval : 90 - 100
+Frequency : 3
+
+--------------------------------------------------
+
+Important Terms
+
+Example Class Interval
+
+70 - 79
+
+Lower Class Limit = 70
+
+Upper Class Limit = 79
+
+Class Width = 10
+
+Usually, all class intervals have the same width.
+
+Conclusion
+
+Class intervals simplify statistical analysis by grouping large amounts of data into meaningful ranges.
+
+==================================================
+
+Steps for Organizing Data
+
+Step 1
+Sort the raw data.
+
+Step 2
+Calculate the range.
+
+Range = Maximum - Minimum
+
+Step 3
+Choose the number of classes and the class width.
+
+Step 4
+Construct the frequency table.
+
+Step 5
+Calculate the relative frequency and cumulative frequency.
+
+Step 6
+Draw a graph or diagram.
