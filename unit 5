@@ -1,0 +1,364 @@
+Lesson 5
+Data Visualization
+
+The human brain understands data much faster through visual representations.
+
+Brain's ability:
+Most information is received through the eyes.
+
+Advantages of Data Visualization:
+
+1. Quick Understanding:
+   Patterns, trends, and outliers can be identified immediately.
+
+2. Comparison:
+   Differences between groups can be easily observed.
+
+3. Communication:
+   It is easier to explain data to others.
+
+4. Discovering Hidden Information:
+   We can identify patterns that are difficult to notice in numerical tables.
+
+==================================================
+
+Six Main Types of Charts
+
+1. Histogram
+   Used to show the distribution of continuous numerical data.
+
+2. Bar Chart
+   Used to compare categorical (qualitative) data.
+
+3. Pie Chart
+   Used to show proportions or parts of a whole.
+
+4. Line Chart
+   Used to show changes over time.
+
+5. Box Plot
+   Used to display data distribution and outliers.
+
+6. Stem and Leaf Plot
+   Used to preserve and display the original data values.
+
+==================================================
+
+The Most Important Rule
+
+Every chart has its own appropriate purpose.
+Choosing the wrong chart may lead to misleading conclusions.
+
+Before selecting a chart, ask these questions:
+
+• What type of data do I have?
+  (Numerical or categorical?)
+
+• What do I want to show?
+  (Distribution, comparison, trend, or proportion?)
+
+• Who is the audience?
+  (Experts or the general public?)
+
+==================================================
+Histogram
+==================================================
+
+Purpose:
+
+A Histogram is used to display the distribution of continuous numerical data.
+
+Characteristics:
+
+• The bars touch each other.
+• There are no gaps between the bars.
+• This is because the data are continuous.
+• The order of the intervals is important.
+
+What can we learn from a Histogram?
+
+• Shape:
+  Is the distribution approximately symmetric or normal?
+
+• Center:
+  Where are most of the observations concentrated?
+
+• Spread:
+  Are the values widely spread or closely grouped?
+
+• Outliers:
+  Are there any unusual values?
+
+Note:
+
+Do not confuse a Histogram with a Bar Chart.
+
+==================================================
+Bar Chart
+==================================================
+
+Purpose:
+
+A Bar Chart is used to compare categorical (qualitative) data.
+
+Characteristics:
+
+• The bars are separated.
+• There are spaces between the bars.
+• Categories are independent of each other.
+• The order is usually not important.
+  (They may be arranged alphabetically or from largest to smallest.)
+
+Note:
+
+A Bar Chart can be drawn vertically or horizontally.
+
+A Histogram is normally drawn only vertically.
+
+==================================================
+Pie Chart
+==================================================
+
+Purpose:
+
+A Pie Chart is used to show how each category contributes to the whole.
+
+Rules:
+
+• The total of all slices must equal 100%.
+• It is most effective when there are only a few categories.
+  (Usually no more than 5 to 7 categories.)
+
+Advantages:
+
+• Clearly shows the relationship between the whole and its parts.
+• Easy for most people to understand.
+• Commonly used in reports, presentations, and advertisements.
+
+Disadvantages:
+
+• Too many categories make the chart difficult to read.
+• Similar-sized slices are difficult to compare.
+• It cannot show changes over time.
+• Exact numerical values are difficult to read.
+
+Note:
+
+If your goal is simply to compare values, a Bar Chart is usually a better choice.
+
+A Pie Chart should only be used to show proportions of a whole.
+
+==================================================
+Line Chart
+==================================================
+
+Purpose:
+
+A Line Chart is used to show changes over time.
+
+It is useful for showing:
+
+• Trends
+• Continuous changes
+• Seasonal patterns
+
+Axes:
+
+X-axis = Time (Day, Month, Year)
+
+Y-axis = Value
+
+==================================================
+Box Plot
+==================================================
+
+Purpose:
+
+A Box Plot is used to display:
+
+• Data distribution
+• Center
+• Spread
+• Outliers
+
+in a single graph.
+
+It is especially useful for comparing several groups.
+
+What can we learn from a Box Plot?
+
+• Median
+• Quartiles
+• Spread
+• Outliers
+
+==================================================
+Stem and Leaf Plot
+==================================================
+
+Purpose:
+
+A Stem and Leaf Plot is used for small and medium-sized data sets.
+
+Main Feature:
+
+The original data values are preserved.
+
+Unlike a Histogram, the original numbers are not lost.
+
+Each number is divided into two parts:
+
+Stem = Leading digit(s)
+
+Leaf = Last digit
+
+What can we learn from a Stem and Leaf Plot?
+
+• Original values
+• Distribution
+• Center
+• Median
+
+Advantages:
+
+• Keeps the original data.
+• Easy to draw by hand.
+• Very useful for small data sets.
+• Provides detailed information.
+
+Disadvantages:
+
+• Not suitable for large data sets.
+• Less visually attractive.
+• Not commonly used in presentations.
+• Rarely used in modern statistical practice.
+
+In practice, Stem and Leaf Plots are mainly used for teaching purposes.
+
+For real-world analysis, Histograms and statistical software are usually preferred.
+
+==================================================
+The Most Important Rule
+
+A good chart should be:
+
+• Accurate
+• Clear
+• Simple
+
+==================================================
+Practical Examples
+
+Example 1
+
+Hospital – Patients' Ages
+
+Objective:
+
+To determine which age group has the largest number of patients.
+
+Best Choice:
+
+Histogram
+
+Reason:
+
+Age is continuous numerical data, and we want to study its distribution.
+
+--------------------------------------------------
+
+Example 2
+
+Company – Department Expenses
+
+Objective:
+
+To compare the expenses of different departments.
+
+Best Choice:
+
+Bar Chart
+
+Reason:
+
+Departments are categorical data, and comparison is required.
+
+--------------------------------------------------
+
+Example 3
+
+Government – Annual Population Growth
+
+Objective:
+
+To show population changes over a period of 20 years.
+
+Best Choice:
+
+Line Chart
+
+Reason:
+
+The data represent changes over time.
+
+--------------------------------------------------
+
+Example 4
+
+School – Students' Family Income
+
+Objective:
+
+To show the proportion of students from different income groups.
+
+Best Choice:
+
+Pie Chart
+
+Reason:
+
+The purpose is to show parts of a whole.
+
+--------------------------------------------------
+
+Example 5
+
+Factory – Product Quality of Three Production Lines
+
+Objective:
+
+To compare the quality of three production lines.
+
+Best Choice:
+
+Box Plot
+
+Reason:
+
+It allows comparison of multiple groups while displaying distribution and outliers.
+
+--------------------------------------------------
+
+Example 6
+
+Teacher – Analysis of Scores for 15 Students
+
+Objective:
+
+To examine the details while preserving the original scores.
+
+Best Choice:
+
+Stem and Leaf Plot
+
+Reason:
+
+The data set is small, and every value is important.
+
+==================================================
+
+Note:
+
+The same data can often be displayed using different types of charts.
+
+The most important thing is to choose the chart that best matches your objective.
