@@ -1,0 +1,723 @@
+
+
+# Lesson 6
+
+# Measures of Central Tendency
+
+Measures of Central Tendency are statistical measures used to find the central or representative value of a group of data.
+
+---
+
+# Mean (Arithmetic Mean)
+
+The **Mean (Arithmetic Mean)** is the average value obtained by dividing the sum of all data values by the total number of values.
+
+In simple words:
+
+> Add all the numbers together and divide the total by the number of values. The result is called the **Mean**.
+
+---
+
+# Formula
+
+```text
+Mean = (x1 + x2 + x3 + ... + xn) / n
+```
+
+or
+
+```text
+x̄ = Σx / n
+```
+
+Where:
+
+```text
+x̄  = Mean (Arithmetic Mean)
+
+Σx = Sum of all values
+
+n  = Number of values
+```
+
+---
+
+# Example
+
+A student's scores on five exams are:
+
+```text
+60, 70, 80, 90, 100
+```
+
+### Step 1: Add all the scores
+
+```text
+60 + 70 + 80 + 90 + 100 = 400
+```
+
+### Step 2: Divide by the number of scores
+
+```text
+Mean = 400 / 5
+```
+
+### Step 3: Answer
+
+```text
+Mean = 80
+```
+
+Therefore,
+
+**The student's average score (Mean) is 80.**
+
+---
+
+# Another Simple Example
+
+The heights of five people (cm):
+
+```text
+150, 155, 160, 165, 170
+```
+
+Add them together:
+
+```text
+150 + 155 + 160 + 165 + 170 = 800
+```
+
+Find the Mean:
+
+```text
+Mean = 800 / 5 = 160
+```
+
+Therefore,
+
+**The average height of these five people is 160 cm.**
+
+---
+
+# Formula to Remember
+
+```text
+Mean = Sum of all values ÷ Number of values
+```
+
+or
+
+```text
+x̄ = Σx / n
+```
+
+---
+
+# Important Note
+
+The Mean can sometimes be a value that does not actually exist in reality.
+
+For example:
+
+```text
+The average number of people in a family is 2.5.
+```
+
+In reality, **a family cannot have 2.5 people**. This is only a mathematical average.
+
+---
+
+# The Biggest Disadvantage of the Mean
+
+The Mean is **very sensitive to outliers**.
+
+A single extremely large or extremely small value can significantly change the average.
+
+### Example
+
+```text
+10, 20, 30, 40, 200
+```
+
+```text
+Mean = (10 + 20 + 30 + 40 + 200) / 5
+     = 300 / 5
+     = 60
+```
+
+Here, the value **200** is much larger than the other values, so it increases the Mean considerably.
+
+Therefore, when a dataset contains outliers, the Mean may not accurately represent the center of the data.
+
+
+# Median
+
+The **Median** is the middle value of a dataset after the data have been arranged in ascending or descending order.
+
+In simple words:
+
+> After arranging the numbers from smallest to largest, the value in the middle is called the **Median**.
+
+## Note
+
+* If the number of observations is **odd**, the middle value is the Median.
+* If the number of observations is **even**, the Median is the average of the two middle values.
+
+---
+
+# Formula
+
+## 1. Odd Number of Observations
+
+```text
+Median = (n + 1) / 2 th value
+```
+
+Where:
+
+```text
+n = Number of observations
+```
+
+---
+
+## 2. Even Number of Observations
+
+```text
+Median = (Sum of the two middle values) / 2
+```
+
+---
+
+# Example
+
+A student's exam scores are:
+
+```text
+65, 70, 75, 80, 90
+```
+
+The data are already arranged in ascending order.
+
+```text
+n = 5
+```
+
+Position of the Median:
+
+```text
+(n + 1) / 2
+= (5 + 1) / 2
+= 3
+```
+
+The 3rd value is:
+
+```text
+75
+```
+
+Therefore,
+
+```text
+Median = 75
+```
+
+---
+
+# Example with an Even Number of Observations
+
+Data:
+
+```text
+10, 20, 30, 40
+```
+
+The two middle values are:
+
+```text
+20 and 30
+```
+
+Median:
+
+```text
+Median = (20 + 30) / 2
+       = 25
+```
+
+Therefore,
+
+```text
+Median = 25
+```
+
+---
+
+# Rule to Remember
+
+```text
+1. Arrange the data from smallest to largest.
+
+2. If the number of observations is odd,
+   the middle value is the Median.
+
+3. If the number of observations is even,
+   the Median is the average of the two middle values.
+```
+
+---
+
+# Difference Between Mean and Median
+
+```text
+Mean   = Sum of all values ÷ Number of values
+
+Median = The middle value after sorting the data
+```
+
+### Example
+
+```text
+10, 20, 30, 40, 200
+```
+
+```text
+Mean = (10 + 20 + 30 + 40 + 200) / 5
+     = 300 / 5
+     = 60
+
+Median = 30
+```
+
+In this example, the value **200** is an outlier. It increases the Mean, but it does not affect the Median.
+
+---
+
+# Advantages of the Median
+
+* Not affected by outliers.
+* Better represents the center of skewed data.
+* Suitable for ordinal data.
+* Very useful for data such as income, salaries, and house prices.
+
+---
+
+# Disadvantages of the Median
+
+* Does not use every value in the dataset.
+* Less useful for mathematical calculations than the Mean.
+* Can be unstable for very small samples.
+
+---
+
+# When Should You Use the Median?
+
+The Median is the best choice for datasets containing outliers, such as:
+
+* Income
+* House prices
+* Property values
+* Salaries
+
+---
+
+# Why Do News Reports Often Use the Mean Income?
+
+Governments and statistical agencies often report the **Mean income** because it is usually higher and gives the impression of a stronger economy.
+
+However, the **Median income** usually represents the actual financial situation of most people more accurately.
+
+---
+
+# Practical Rules
+
+```text
+If Mean = Median
+→ The distribution is symmetric (approximately normal).
+
+If Mean > Median
+→ The distribution is positively skewed (right-skewed).
+
+If Mean < Median
+→ The distribution is negatively skewed (left-skewed).
+```
+
+---
+
+# Mode
+
+The **Mode** is the value that appears most frequently in a dataset.
+
+In simple words:
+
+> The number that occurs most often is called the **Mode**.
+
+---
+
+# Formula
+
+Unlike the Mean and the Median, the Mode has no mathematical formula.
+
+```text
+Mode = The most frequently occurring value
+```
+
+---
+
+# Example
+
+A class has the following exam scores:
+
+```text
+60, 70, 70, 80, 90
+```
+
+Frequency of each score:
+
+```text
+60 → 1 time
+
+70 → 2 times
+
+80 → 1 time
+
+90 → 1 time
+```
+
+Therefore,
+
+```text
+Mode = 70
+```
+
+---
+
+# Another Example
+
+```text
+2, 4, 4, 5, 5, 6
+```
+
+Frequencies:
+
+```text
+2 → 1 time
+
+4 → 2 times
+
+5 → 2 times
+
+6 → 1 time
+```
+
+Therefore,
+
+```text
+Mode = 4 and 5
+```
+
+This type of dataset is called:
+
+```text
+Bimodal
+```
+
+because it has two modes.
+
+---
+
+# If No Value Repeats
+
+Example:
+
+```text
+10, 20, 30, 40, 50
+```
+
+Each value appears only once.
+
+Therefore,
+
+```text
+Mode = No Mode
+```
+
+---
+
+# Rule to Remember
+
+```text
+Mode = The value that appears most frequently
+```
+
+---
+
+# Difference Between Mean, Median, and Mode
+
+```text
+Mean   = Arithmetic Average
+
+Median = Middle Value
+
+Mode   = Most Frequently Occurring Value
+```
+
+---
+
+# Comparing All Three Measures
+
+Data:
+
+```text
+10, 20, 20, 30, 40
+```
+
+```text
+Mean = (10 + 20 + 20 + 30 + 40) / 5
+     = 120 / 5
+     = 24
+
+Median = 20
+
+Mode = 20
+```
+
+---
+
+# Advantages of the Mode
+
+* The only measure of central tendency that can be used for categorical data.
+* Not affected by outliers.
+* Easy to understand and interpret.
+
+---
+
+# Disadvantages of the Mode
+
+* May not exist.
+* There may be more than one Mode.
+* Less reliable for very small datasets.
+
+---
+
+# Best Uses of the Mode
+
+* Categorical data (colors, fruits, brands, etc.)
+* Finding the most popular choice.
+* Identifying the most frequently occurring value.
+
+
+
+# Weighted Mean
+
+The **Weighted Mean** is an average that takes into account the importance (weight) of each value.
+
+Unlike the arithmetic mean, not all values contribute equally to the final result.
+
+In simple words:
+
+> If some values are more important than others, we assign a **weight** to each value and calculate the average accordingly. This is called the **Weighted Mean**.
+
+---
+
+# Formula
+
+```text id="5qzq0h"
+Weighted Mean = Σ(wx) / Σw
+```
+
+Where:
+
+```text id="xtm5gh"
+x  = Value
+
+w  = Weight
+
+Σ(wx) = Sum of each value multiplied by its weight
+
+Σw = Sum of all weights
+```
+
+---
+
+# Example
+
+A student's grades and their weights are:
+
+```text id="9lh84n"
+Mathematics = 90      Weight = 50%
+
+Science     = 80      Weight = 30%
+
+English     = 70      Weight = 20%
+```
+
+### Step 1: Multiply each score by its weight
+
+```text id="aebt6w"
+90 × 0.50 = 45
+
+80 × 0.30 = 24
+
+70 × 0.20 = 14
+```
+
+### Step 2: Add the weighted scores
+
+```text id="vqu3lv"
+45 + 24 + 14 = 83
+```
+
+### Step 3: Add the weights
+
+```text id="cmjlwm"
+0.50 + 0.30 + 0.20 = 1.00
+```
+
+### Step 4: Calculate the Weighted Mean
+
+```text id="4o9i9r"
+Weighted Mean = 83 / 1.00
+
+Weighted Mean = 83
+```
+
+---
+
+# Answer
+
+```text id="g7wrtu"
+Weighted Mean = 83
+```
+
+Therefore,
+
+**The student's weighted average is 83.**
+
+---
+
+# Why Do We Use the Weighted Mean?
+
+If every value does **not** have the same importance, the ordinary Mean does not give an accurate result.
+
+For example:
+
+```text id="obxy0v"
+Midterm Exam = 40%
+
+Final Exam   = 60%
+```
+
+Since the **Final Exam** is more important than the Midterm Exam, it is assigned a larger weight.
+
+---
+
+# Difference Between Mean and Weighted Mean
+
+```text id="r4dznv"
+Mean
+
+→ Every value has the same importance.
+
+Weighted Mean
+
+→ Different values have different levels of importance (weights).
+```
+
+---
+
+# Formula to Remember
+
+```text id="n9i7c7"
+Weighted Mean = Σ(wx) / Σw
+```
+
+---
+
+# Applications of the Weighted Mean
+
+The Weighted Mean is widely used in many fields, including:
+
+* Calculating students' final grades
+* Grade Point Average (GPA)
+* Stock market indices
+* Economics and finance
+* Survey analysis
+* Performance evaluation
+* Business and management
+* Scientific research
+
+---
+
+# Important Note
+
+If all weights are equal,
+
+```text id="f44yjr"
+Weighted Mean = Mean
+```
+
+In other words, the **Weighted Mean** and the **Arithmetic Mean** will be the same.
+
+However, if the importance of the values is different, you should always use the **Weighted Mean**.
+
+---
+
+# Comparison of the Measures of Central Tendency
+
+| Measure       | Definition                                         | Best Used When                                                    |
+| ------------- | -------------------------------------------------- | ----------------------------------------------------------------- |
+| Mean          | Sum of all values divided by the number of values  | The data are symmetric and there are no significant outliers.     |
+| Median        | The middle value after sorting the data            | The data contain outliers or are skewed.                          |
+| Mode          | The value that occurs most frequently              | The data are categorical or when the most common value is needed. |
+| Weighted Mean | An average that considers the weight of each value | Different values have different levels of importance.             |
+
+---
+
+# How to Choose the Right Measure
+
+```text id="dtlxot"
+If the data are symmetric
+→ Use the Mean.
+
+If the data contain outliers
+→ Use the Median.
+
+If you need the most frequently occurring value
+→ Use the Mode.
+
+If the values have different levels of importance
+→ Use the Weighted Mean.
+```
+
+---
+
+# Lesson Summary
+
+In this lesson, we learned the four main measures of central tendency:
+
+* Mean (Arithmetic Mean)
+* Median
+* Mode
+* Weighted Mean
+
+These measures summarize a dataset by representing it with a single central value.
+
+Each measure has its own strengths and weaknesses. Choosing the appropriate measure depends on the type of data and the purpose of the analysis.
+
+---
+
+# Key Points to Remember
+
+```text id="frv2ib"
+• Mean uses all values but is sensitive to outliers.
+
+• Median is resistant to outliers and is ideal for skewed data.
+
+• Mode identifies the most frequently occurring value and is suitable for categorical data.
+
+• Weighted Mean should be used whenever different values have different levels of importance.
+```
+
