@@ -1,0 +1,872 @@
+7. LESSON
+
+MEASURES OF DISPERSION
+
+
+The mean alone is not enough.
+We also need to know how much the data are spread out.
+
+
+SIX MAIN MEASURES OF DISPERSION
+
+1. Range = Maximum Value - Minimum Value
+
+2. Variance = The average of the squared differences from the mean.
+
+3. Standard Deviation = The square root of variance. It is one of the most important measures of dispersion.
+
+4. Quartile = Divides the data into four parts.
+
+5. IQR = Interquartile Range
+   Q3 - Q1
+
+6. Percentile = Shows the position of a particular value in the data set.
+
+
+WHAT DO THESE MEASURES HELP US DO?
+
+1. Evaluate the variability of the data.
+
+2. Understand risk.
+   For example, in finance and insurance.
+
+3. Make comparisons.
+   Two groups can have the same mean but different distributions.
+
+4. Detect outliers.
+
+5. Understand normal distribution.
+
+
+
+RANGE
+
+
+Range is the difference between the maximum value and the minimum value in a data set.
+
+In simple words:
+
+If we subtract the smallest number from the largest number, the result is the Range.
+
+
+FORMULA
+
+Range = Maximum Value - Minimum Value
+
+or
+
+Range = Max - Min
+
+
+Here:
+
+Max = Maximum Value
+
+Min = Minimum Value
+
+
+EXAMPLE
+
+The exam scores of students in a class are:
+
+60, 70, 75, 80, 90
+
+
+Step 1: Find the maximum value.
+
+Maximum = 90
+
+
+Step 2: Find the minimum value.
+
+Minimum = 60
+
+
+Step 3: Calculate the Range.
+
+Range = 90 - 60
+
+Range = 30
+
+
+ANSWER
+
+Range = 30
+
+
+This means the difference between the maximum and minimum values in the data set is 30.
+
+
+RULE TO REMEMBER
+
+Range = Maximum Value - Minimum Value
+
+
+If the Range is large:
+
+The data are more spread out.
+
+
+If the Range is small:
+
+The data are closer to each other.
+
+
+ADVANTAGES
+
+It is very easy to calculate.
+
+It is easy to understand.
+
+It shows the overall spread of the data.
+
+
+DISADVANTAGES
+
+It uses only two values.
+
+It is very sensitive to outliers.
+
+It does not show how the values in the middle are distributed.
+
+
+Range only shows the overall width of the data.
+Other measures are needed for more detailed information.
+
+
+
+QUARTILE
+
+
+A Quartile is a value that divides an ordered data set into four parts.
+
+In simple words:
+
+Quartiles help us understand how much data is located in different parts of the data set.
+
+
+There are three main Quartile values:
+
+Q1 = First Quartile
+
+Q2 = Second Quartile
+
+Q3 = Third Quartile
+
+
+These values divide the data into approximately four equal parts.
+
+25%       25%       25%       25%
+ |---------|---------|---------|
+          Q1        Q2        Q3
+
+
+Q1 = Approximately 25% of the data are below Q1.
+
+Q2 = Approximately 50% of the data are below Q2.
+Q2 is the same as the Median.
+
+Q3 = Approximately 75% of the data are below Q3.
+
+
+FORMULA
+
+If the number of data values is n:
+
+Q1 Position = (n + 1) / 4
+
+Q2 Position = (n + 1) / 2
+
+Q3 Position = 3(n + 1) / 4
+
+
+Here:
+
+n = Number of data values
+
+
+EXAMPLE
+
+Consider the following numbers:
+
+10, 20, 30, 40, 50, 60, 70
+
+
+The numbers are already arranged from smallest to largest.
+
+
+Number of data values:
+
+n = 7
+
+
+Step 1: Find Q1.
+
+Q1 Position = (n + 1) / 4
+
+Q1 Position = (7 + 1) / 4
+
+Q1 Position = 2
+
+
+The value at the 2nd position is:
+
+Q1 = 20
+
+
+Step 2: Find Q2.
+
+Q2 Position = (n + 1) / 2
+
+Q2 Position = (7 + 1) / 2
+
+Q2 Position = 4
+
+
+The value at the 4th position is:
+
+Q2 = 40
+
+
+Q2 is the same as the Median.
+
+
+Step 3: Find Q3.
+
+Q3 Position = 3(n + 1) / 4
+
+Q3 Position = 3(7 + 1) / 4
+
+Q3 Position = 6
+
+
+The value at the 6th position is:
+
+Q3 = 60
+
+
+ANSWER
+
+Q1 = 20
+
+Q2 = 40
+
+Q3 = 60
+
+
+Therefore, in this data set:
+
+25% → Q1 = 20
+
+50% → Q2 = 40
+
+75% → Q3 = 60
+
+
+RULE TO REMEMBER
+
+Q1 → 25th Percentile
+
+Q2 → 50th Percentile = Median
+
+Q3 → 75th Percentile
+
+
+The main purpose of Quartiles is to understand how much the data are spread out and in which parts the values are concentrated.
+
+
+
+INTERQUARTILE RANGE
+
+
+Interquartile Range, or IQR, shows the spread of the middle 50% of the data.
+
+IQR is the difference between Q3 and Q1.
+
+
+FORMULA
+
+IQR = Q3 - Q1
+
+
+ADVANTAGES
+
+It is not very sensitive to outliers.
+
+It shows the actual spread of the middle 50% of the data.
+
+It is useful for data with many outliers, such as income and house prices.
+
+
+
+DETECTING OUTLIERS
+
+IQR RULE
+
+
+If a value is outside the following limits, it is considered an outlier.
+
+
+Lower Limit:
+
+Q1 - 1.5 × IQR
+
+
+Upper Limit:
+
+Q3 + 1.5 × IQR
+
+
+IQR is one of the most commonly used methods for detecting outliers.
+
+
+
+VARIANCE
+
+
+Variance is a measure of how much the values in a data set are spread out from the mean.
+
+In simple words:
+
+If the numbers are close to the mean, the Variance is small.
+
+If the numbers are far from the mean, the Variance is large.
+
+
+FORMULA
+
+For Population Variance:
+
+σ² = Σ(x - μ)² / N
+
+
+For Sample Variance:
+
+s² = Σ(x - x̄)² / (n - 1)
+
+
+Here:
+
+x = Each data value
+
+μ = Population Mean
+
+x̄ = Sample Mean
+
+N = Number of values in the Population
+
+n = Number of values in the Sample
+
+σ² = Population Variance
+
+s² = Sample Variance
+
+
+SIMPLE EXAMPLE
+
+Data set:
+
+2, 4, 6
+
+
+Step 1: Find the Mean.
+
+Mean = (2 + 4 + 6) / 3
+
+Mean = 12 / 3
+
+Mean = 4
+
+
+Step 2: Find the difference between each number and the Mean.
+
+2 - 4 = -2
+
+4 - 4 = 0
+
+6 - 4 = 2
+
+
+Step 3: Find the square of each difference.
+
+(-2)² = 4
+
+(0)² = 0
+
+(2)² = 4
+
+
+Step 4: Add them together.
+
+4 + 0 + 4 = 8
+
+
+Step 5: Find the Variance.
+
+If we consider these data as a Population:
+
+Variance = 8 / 3
+
+Variance = 2.67
+
+
+ANSWER
+
+Variance = 2.67
+
+
+This means the Variance of this data set is 2.67.
+
+
+IMPORTANT POINT
+
+If the Variance is small:
+
+The numbers are closer to each other.
+
+The spread is small.
+
+
+If the Variance is large:
+
+The numbers are farther from each other.
+
+The spread is large.
+
+
+
+STANDARD DEVIATION
+
+
+Standard Deviation is a measure that shows how far the values in a data set are from the mean.
+
+In simple words:
+
+If the numbers are close to the mean, the Standard Deviation is small.
+
+If the numbers are far from the mean, the Standard Deviation is large.
+
+
+RELATIONSHIP BETWEEN VARIANCE AND STANDARD DEVIATION
+
+Standard Deviation is the square root of Variance.
+
+
+FORMULA
+
+Standard Deviation = √Variance
+
+
+FOR POPULATION
+
+σ = √[Σ(x - μ)² / N]
+
+
+FOR SAMPLE
+
+s = √[Σ(x - x̄)² / (n - 1)]
+
+
+SYMBOLS IN THE FORMULA
+
+σ = Population Standard Deviation
+
+s = Sample Standard Deviation
+
+x = Each data value
+
+μ = Population Mean
+
+x̄ = Sample Mean
+
+N = Number of values in the Population
+
+n = Number of values in the Sample
+
+
+EXAMPLE
+
+Data set:
+
+2, 4, 6
+
+
+Let us consider these data as a Population.
+
+
+Step 1: Find the Mean.
+
+Mean = (2 + 4 + 6) / 3
+
+Mean = 12 / 3
+
+Mean = 4
+
+
+Step 2: Find the difference between each number and the Mean.
+
+2 - 4 = -2
+
+4 - 4 = 0
+
+6 - 4 = 2
+
+
+Step 3: Find the square of each difference.
+
+(-2)² = 4
+
+(0)² = 0
+
+(2)² = 4
+
+
+Step 4: Find the Variance.
+
+Variance = (4 + 0 + 4) / 3
+
+Variance = 8 / 3
+
+Variance = 2.67
+
+
+Step 5: Find the Standard Deviation.
+
+Standard Deviation = √2.67
+
+Standard Deviation ≈ 1.63
+
+
+ANSWER
+
+Standard Deviation ≈ 1.63
+
+
+This means that the mean of the data set is 4, and the values are spread approximately 1.63 units around the mean.
+
+
+EASY WAY TO REMEMBER
+
+First, find the Mean.
+
+Find the difference between each value and the Mean.
+
+Square the differences.
+
+Find the Variance.
+
+Take the square root of the Variance.
+
+The result is the Standard Deviation.
+
+
+IMPORTANT POINT
+
+If the Standard Deviation is small:
+
+The numbers are close to the Mean.
+
+The spread is small.
+
+
+If the Standard Deviation is large:
+
+The numbers are far from the Mean.
+
+The spread is large.
+
+
+MOST IMPORTANT POINT
+
+Variance → A squared measure of spread.
+
+Standard Deviation → The square root of Variance.
+
+
+The unit of Standard Deviation is the same as the original data unit.
+
+For example:
+
+If the unit of the data is cm, the unit of Standard Deviation is also cm.
+
+
+
+EMPIRICAL RULE
+
+
+The Empirical Rule is a rule that shows approximately what percentage of data lies around the mean when the data are approximately normally distributed.
+
+In simple words:
+
+If the data are approximately normally distributed, most of the values are concentrated around the Mean.
+
+
+1 STANDARD DEVIATION
+
+Approximately 68% of the data are within one Standard Deviation of the Mean.
+
+
+FORMULA
+
+68% = μ ± σ
+
+
+2 STANDARD DEVIATIONS
+
+Approximately 95% of the data are within two Standard Deviations of the Mean.
+
+
+FORMULA
+
+95% = μ ± 2σ
+
+
+3 STANDARD DEVIATIONS
+
+Approximately 99.7% of the data are within three Standard Deviations of the Mean.
+
+
+FORMULA
+
+99.7% = μ ± 3σ
+
+
+SYMBOLS IN THE FORMULA
+
+μ = Mean
+
+σ = Standard Deviation
+
+
+EXAMPLE
+
+Suppose the exam scores in a class are approximately normally distributed.
+
+
+Mean:
+
+μ = 70
+
+
+Standard Deviation:
+
+σ = 10
+
+
+Step 1: One Standard Deviation
+
+
+Lower limit:
+
+μ - σ = 70 - 10 = 60
+
+
+Upper limit:
+
+μ + σ = 70 + 10 = 80
+
+
+Therefore, approximately 68% of the data are between 60 and 80.
+
+
+Step 2: Two Standard Deviations
+
+
+Lower limit:
+
+μ - 2σ = 70 - 20 = 50
+
+
+Upper limit:
+
+μ + 2σ = 70 + 20 = 90
+
+
+Therefore, approximately 95% of the data are between 50 and 90.
+
+
+Step 3: Three Standard Deviations
+
+
+Lower limit:
+
+μ - 3σ = 70 - 30 = 40
+
+
+Upper limit:
+
+μ + 3σ = 70 + 30 = 100
+
+
+Therefore, approximately 99.7% of the data are between 40 and 100.
+
+
+EASY WAY TO REMEMBER
+
+68% = 1σ
+
+95% = 2σ
+
+99.7% = 3σ
+
+
+In other words:
+
+68% - 95% - 99.7%
+
+
+If you remember these three numbers, you can easily remember the Empirical Rule.
+
+
+IMPORTANT NOTE
+
+The Empirical Rule is used only when the data are approximately normally distributed.
+
+If the data are not approximately normally distributed, the 68%, 95%, and 99.7% rule should not be used.
+
+
+SHORT SUMMARY
+
+1 Standard Deviation → 68%
+
+2 Standard Deviations → 95%
+
+3 Standard Deviations → 99.7%
+
+
+The most important point of the Empirical Rule is:
+
+68% - 95% - 99.7%
+
+
+
+PERCENTILE
+
+
+Percentile shows the percentage of data values that are below or equal to a particular value in a data set.
+
+In simple words:
+
+Percentile shows the position of a value compared with the other values in the data set.
+
+
+SIMPLE EXPLANATION
+
+If a student's score is at the 90th Percentile:
+
+Approximately 90% of the scores are less than or equal to this student's score.
+
+In other words, this student scored higher than approximately 90% of the other students.
+
+
+FORMULA
+
+To find the position of a Percentile:
+
+P = (k / 100) × (n + 1)
+
+
+Here:
+
+P = Position of the Percentile
+
+k = The desired Percentile
+
+n = Number of data values
+
+
+EXAMPLE
+
+Consider the following exam scores:
+
+10, 20, 30, 40, 50, 60, 70, 80, 90
+
+
+The numbers are already arranged from smallest to largest.
+
+
+Number of data values:
+
+n = 9
+
+
+We want to find the 75th Percentile.
+
+
+Step 1
+
+P = (k / 100) × (n + 1)
+
+P = (75 / 100) × (9 + 1)
+
+P = 0.75 × 10
+
+P = 7.5
+
+
+Step 2
+
+The value 7.5 means the position is between the 7th and 8th values.
+
+
+7th value:
+
+70
+
+
+8th value:
+
+80
+
+
+The value at the 7.5th position:
+
+75
+
+
+Therefore:
+
+75th Percentile = 75
+
+
+ANSWER
+
+75th Percentile = 75
+
+
+This means approximately 75% of the data are less than or equal to 75.
+
+
+RELATIONSHIP BETWEEN QUARTILE AND PERCENTILE
+
+Q1 = 25th Percentile
+
+Q2 = 50th Percentile
+
+Q3 = 75th Percentile
+
+
+Q2 is the same as the Median.
+
+
+EASY WAY TO REMEMBER
+
+25th Percentile → 25%
+
+50th Percentile → 50%
+
+75th Percentile → 75%
+
+90th Percentile → 90%
+
+
+As the Percentile value increases, the position in the data set also increases.
+
+
+IMPORTANT NOTE
+
+Percentile and Percentage are not the same thing.
+
+Percentage shows the ratio of a number to the whole.
+
+Percentile shows the position of a particular value within a data set.
