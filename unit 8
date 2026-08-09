@@ -1,0 +1,470 @@
+8. LESSON
+
+PROBABILITY
+
+# Probability
+
+## 1. What is Probability?
+
+Probability shows the chance that an event will happen.
+
+Simply:
+
+Probability = The chance that an event will happen
+
+For example:
+
+When we toss a coin, there are two possible outcomes:
+
+Head = Head side
+
+Tail = Tail side
+
+If the coin is fair, the probability of getting Head is:
+
+Probability = 1 / 2 = 0.5 = 50%
+
+This means that when we toss a coin once, the probability of getting Head is 50%.
+
+---
+
+## 2. The Value of Probability
+
+Probability is always:
+
+Between 0 and 1.
+
+That is:
+
+0 <= Probability <= 1
+
+As a percentage:
+
+0% <= Probability <= 100%
+
+Meaning:
+
+Probability = 0
+
+The event is impossible.
+
+Example:
+
+Getting 7 on a 6-sided dice.
+
+Probability = 0
+
+---
+
+Probability = 1
+
+This means that the event will definitely happen.
+
+Example:
+
+Getting a number between 1 and 6 on a 6-sided dice.
+
+Probability = 1 = 100%
+
+---
+
+## 3. The Basic Formula of Probability
+
+If all possible outcomes have the same chance of occurring:
+
+Probability = Favorable Outcomes / Total Outcomes
+
+Here:
+
+Favorable Outcomes = The number of outcomes we want
+
+Total Outcomes = The number of all possible outcomes
+
+## 4. Example with a Dice
+
+A dice has 6 sides.
+
+1, 2, 3, 4, 5, 6
+
+Now:
+
+Let's find the probability of getting 6.
+
+The outcome we want:
+
+Favorable Outcomes = 1
+
+All possible outcomes:
+
+Total Outcomes = 6
+
+Therefore:
+
+Probability = 1 / 6
+
+So:
+
+Probability = 16.67%
+
+This means that the probability of getting 6 when we roll a dice is approximately 16.67%.
+
+## 5. When There Is More Than One Favorable Outcome
+
+For example, let's find the probability of getting an even number when we roll a dice.
+
+Dice:
+
+1, 2, 3, 4, 5, 6
+
+Even numbers:
+
+2, 4, 6
+
+Therefore:
+
+Favorable Outcomes = 3
+
+Total Outcomes = 6
+
+Formula:
+
+Probability = 3 / 6
+
+Simplifying:
+
+Probability = 1 / 2
+
+As a percentage:
+
+Probability = 50%
+
+This means that the probability of getting an even number when rolling a dice is 50%.
+
+---
+
+## 6. Understanding Probability in Daily Life
+
+For example, in a weather application:
+
+Rain Probability = 70%
+
+If we see this:
+
+It does not mean:
+
+"It will definitely rain."
+
+It means:
+
+"There is a high chance of rain."
+
+---
+
+## 7. Another Simple Example
+
+There are:
+
+8 red balls
+
+2 blue balls
+
+in a bag.
+
+Total:
+
+10 balls
+
+If we randomly choose one ball, the probability of getting a blue ball is:
+
+Favorable Outcomes = 2
+
+Total Outcomes = 10
+
+Therefore:
+
+Probability = 2 / 10
+
+Probability = 0.2
+
+Probability = 20%
+
+This means that the probability of getting a blue ball is 20%.
+
+## 8. The Easiest Way to Remember Probability
+
+Probability = Favorable Outcomes / Total Outcomes
+
+In other words:
+
+Probability = The outcomes we want / All possible outcomes
+
+When calculating probability, ask these three questions:
+
+1. Which outcome do I want?
+
+2. How many favorable outcomes are there?
+
+3. How many total possible outcomes are there?
+
+Then:
+
+Probability = Favorable Outcomes / Total Outcomes
+
+---
+
+## 9. Short Summary
+
+Probability = The chance that an event will happen
+
+Probability shows the chance of an event occurring.
+
+Probability = 0
+-> Impossible
+
+Probability = 0.5
+-> 50% probability
+
+Probability = 1
+-> Certain
+
+Basic formula:
+
+Probability = Favorable Outcomes / Total Outcomes
+
+For example:
+
+Getting 6 on a dice:
+
+Probability = 1 / 6 = 16.67%
+
+Getting an even number on a dice:
+
+Probability = 3 / 6 = 1 / 2 = 50%
+
+==================================================
+
+# Four Basic Types of Probability
+
+Probability can be divided into four basic types:
+
+## 1. Classical Probability
+
+Classical probability is the standard method of calculating probability based on all possible outcomes.
+
+Examples:
+
+Tossing a coin
+
+Rolling a dice
+
+For example, the probability of getting Head from a fair coin is:
+
+Probability = 1 / 2 = 50%
+
+---
+
+## 2. Experimental Probability
+
+Experimental probability is calculated based on the results observed during an experiment.
+
+We learn how often an event happens by performing an experiment.
+
+Example:
+
+Tossing a coin repeatedly.
+
+For example:
+
+A coin is tossed 100 times.
+
+Head appears 58 times.
+
+Experimental Probability:
+
+Experimental Probability = 58 / 100
+
+Experimental Probability = 0.58
+
+Experimental Probability = 58%
+
+---
+
+## 3. Conditional Probability
+
+Conditional probability shows the probability of event A happening when event B has already happened.
+
+In other words:
+
+The probability of A given that B has happened.
+
+Example:
+
+After selecting a card, finding the probability that the selected card is a red King.
+
+In conditional probability, we use the information we already have to calculate the probability again.
+
+---
+
+## 4. Subjective Probability
+
+Subjective probability is based on personal opinions, experience, and expert judgment.
+
+This type of probability may not be based directly on mathematical calculations.
+
+Example:
+
+A business manager evaluates the probability of forming a partnership with another company based on the economic situation.
+
+Another example:
+
+Estimating the probability of future economic growth based on economic indicators.
+
+==================================================
+
+# Why Is Probability Important?
+
+## Basic Principle
+
+Probability = The Language of Statistics
+
+Probability is one of the fundamental concepts of statistics.
+
+It helps us understand data, evaluate uncertainty, and make better decisions.
+
+---
+
+## What Happens Without Probability?
+
+The basic relationship between probability and statistics can be understood like this:
+
+Probability
+->
+Distribution
+->
+Inference
+->
+Decision
+
+In simple terms:
+
+Probability
+->
+Distribution
+->
+Inference
+->
+Decision
+
+==================================================
+
+# Relationship Between Probability and Statistics
+
+## 1. Probability
+
+Probability:
+
+From Theory -> To Reality
+
+We know the general population or situation, and we predict what we can expect from a sample.
+
+Example:
+
+If we know that a coin is fair, we can predict approximately how many Heads we expect when we toss it 100 times.
+
+In other words:
+
+Population / General situation
+->
+Sample
+->
+Prediction
+
+---
+
+## 2. Statistics
+
+Statistics:
+
+From Reality -> To Theory
+
+We know the sample and use it to make conclusions about the population.
+
+Example:
+
+We toss a coin 100 times and get Head 58 times.
+
+Now we can ask:
+
+"Is this coin fair?"
+
+In other words:
+
+Sample
+->
+Population
+->
+Prediction
+
+==================================================
+
+# Short Comparison
+
+Probability:
+
+General -> Sample
+
+Population -> Sample
+
+Example:
+
+We know that the coin is fair.
+
+We predict how many Heads we may get in 100 tosses.
+
+Statistics:
+
+Sample -> General
+
+Sample -> Population
+
+Example:
+
+We tossed the coin 100 times and got Head 58 times.
+
+We estimate whether the coin is fair.
+
+==================================================
+
+# Conclusion
+
+Probability and Statistics are closely related.
+
+Probability answers the question:
+
+"If we know the general situation, what can we expect from a sample?"
+
+Statistics answers the question:
+
+"Based on what we observe in a sample, what can we say about the general population?"
+
+Therefore:
+
+Probability = Olasılık / Probability
+
+Statistics = İstatistik / Statistics
+
+Probability
+->
+Distribution
+->
+Inference
+->
+Decision
+
+Probability
+->
+Distribution
+->
+Inference
+->
+Decision
