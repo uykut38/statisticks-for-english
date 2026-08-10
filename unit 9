@@ -1,0 +1,934 @@
+
+
+Yapıştırılan markdown(2).md
+Dosya
+بۇ خەتلەرنى ئىنگەلەزچىغا ئۆزگەرتىپ بەرگىن .مەن بۇنى vskod قا چاپلايمەن ،خېتىنى شۇنىڭغا ماس قىلىپ بەرگىن 
+
+ئەسلى ھۆججەتتىكى مەزمۇننى ئىنگلىزچىگە تەرجىمە قىلىپ، Markdown فورماتىنى ۋە فورمۇلالارنى VS Code غا بىۋاسىتە چاپلاشقا ماس قىلىپ تەييارلىدىم. 
+
+
+بۇ يەردىن چۈشۈرۈپ، VS Code دا ئاچالايسىز:
+
+Download — Lesson 9 Probability Distributions English
+
+فورمۇلالارمۇ ئاددىي Markdown شەكلىدە ساقلانغان، مەسىلەن:
+
+Z = (X − μ) / σ
+
+P(X = x) = (e⁻ˡ × λˣ) / x!
+
+شۇڭا VS Code دا خەتلەرنىڭ ئورۇنلاشتۇرۇلۇشى بۇزۇلمايدۇ. 
+
+
+Lesson_9_Probability_Distributions_English.md
+Belge
+
+
+Lesson_9_Probability_Distributions_English.md
+
+
+Lesson 9 - Probability Distributions
+Basic Principle
+Real-world data are not random in a completely unstructured way - they follow certain patterns and distributions.
+
+Previous lesson continuation:
+Probability ← Distribution ← Inference
+
+What can we do with distributions?
+Prediction: What percentage of students will pass the exam?
+
+Risk assessment: How many times will it rain this year?
+
+Quality control: How many out of 10,000 products are defective?
+
+Decision making: Is this medicine reliable?
+
+Two major types of distributions
+Discrete: Values that can be counted.
+
+Example: Number of students, number of phones.
+
+Continuous: Values that can be measured.
+
+Example: Height, weight, time.
+
+Most important: Choosing the correct distribution is the basis for making the correct inference.
+
+Random Variable
+A variable that assigns a numerical value to the result of an experiment.
+
+Example 1:
+When a coin is tossed 10 times, the number of heads is a random variable. The possible number of heads is from 0 to 10, and the data type is discrete.
+
+Example 2:
+A person's height can vary. Height is a random variable, and the data type is continuous.
+
+Two types
+Discrete random variable
+
+Continuous random variable
+
+Discrete random variable
+Values that can be counted.
+
+Example:
+Number of children = 0, 1, 2, 3, ...
+
+Probability:
+
+P(X = x)
+
+Continuous random variable
+Values that can be measured.
+
+Example:
+Height = 170.5, 170.51, 170.512, ...
+
+Important difference
+Discrete
+P(X = x) has meaning.
+
+Example:
+
+P(X = 3) = 0.2
+
+Continuous
+P(X = x) does not have meaning.
+
+Only the following has meaning:
+
+P(a ≤ X ≤ b)
+
+Note: A distribution is the set of all possible values of a random variable and their probabilities.
+
+Four Key Distributions
+Normal Distribution
+The most common distribution. There are many values near the center and fewer values toward both ends.
+
+Uniform Distribution
+All possible outcomes have equal probability.
+
+Poisson Distribution
+Represents the number of times an event occurs within a specified time period or area.
+
+Binomial Distribution
+In n trials, each trial has two possible outcomes, and it represents the number of successes.
+
+Distribution Selection Decision Process
+Question 1: What type of data is it?
+Discrete (countable) → Go to Question 2.
+
+Continuous (measurable) → Normal or Uniform.
+
+Question 2: What is the nature of the event?
+Binomial or Poisson.
+
+Most important: Choosing the correct distribution is the basis for solving the problem.
+
+Binomial Distribution
+What is the Binomial Distribution?
+The Binomial Distribution is a probability distribution used to calculate how many times a success occurs in a fixed number of independent trials.
+
+There are 4 conditions for using it:
+
+The number of trials (n) must be fixed in advance.
+
+Each trial has only two possible outcomes.
+
+Success
+
+Failure
+
+The probability of success (p) is the same for every trial.
+
+The trials are independent of each other.
+
+Formula
+P(X = x) = C(n,x) × pˣ × (1-p)ⁿ⁻ˣ
+
+When is Binomial used?
+✔ Tossing a coin
+
+✔ Number of successful shots
+
+✔ Number of correct answers on an exam
+
+✔ Number of quality products in a factory
+
+✔ Whether a customer buys a product or not
+
+✔ Whether a medical treatment is effective
+
+Poisson Distribution
+What is the Poisson Distribution?
+The Poisson Distribution is a probability distribution used to calculate how many times an event occurs within a specified time period, interval, or area.
+
+Examples:
+
+How many phone calls arrive in one hour?
+
+How many customers arrive in one day?
+
+How many typing errors are on one page of a book?
+
+How many traffic accidents occur on one kilometer of road?
+
+All of these are examples of the Poisson Distribution.
+
+Conditions for Using Poisson
+Events are counted within a specified time period or area.
+
+Events occur independently.
+
+The average number of occurrences (λ) remains constant.
+
+The probability of two events occurring at exactly the same time is very small.
+
+Formula
+P(X = x) = e⁻ˡ × λˣ / x!
+
+Or written simply:
+
+P(X = x) = (e⁻ˡ × λˣ) / x!
+
+When is Poisson used?
+✔ Number of phone calls received in one hour
+
+✔ Number of customers arriving in one day
+
+✔ Number of typing errors on one page
+
+✔ Number of traffic accidents on a road
+
+✔ Number of emails received in one minute
+
+✔ Number of patients arriving at a hospital
+
+An easy way to recognize it on an exam
+If you see the following words in a question, Poisson Distribution is usually used:
+
+Every hour
+
+Every day
+
+Every minute
+
+Average / Mean
+
+How many events occur?
+
+A specified time period or area
+
+Quick review
+Binomial = Fixed number of trials (n) + two possible outcomes
+
+Poisson = Fixed time period or area + number of events (λ)
+
+Uniform Distribution
+What is Uniform Distribution?
+A distribution in which all possible outcomes have equal probability.
+
+In other words, no outcome has a higher or lower probability than another.
+
+Two Types of Uniform Distribution
+1. Discrete Uniform Distribution
+There are countable, separate values.
+
+Examples: Dice, cards, lottery numbers.
+
+2. Continuous Uniform Distribution
+Every value within an interval between two numbers has an equal probability.
+
+Examples: Time, length, weight.
+
+1. Discrete Uniform Distribution Formula
+If there are n outcomes with equal probability:
+
+P(X = x) = 1 / n
+
+Or written simply:
+
+P(X = x) = 1 / n
+
+When is Uniform Distribution used?
+✔ Rolling a fair die
+
+✔ A fair coin (Head and Tail are each 50%)
+
+✔ Lottery numbers
+
+✔ Selecting a card
+
+✔ Any time within a time interval
+
+✔ Any position within a length or interval
+
+An easy sentence to remember
+If all outcomes have equal probability, use Uniform Distribution.
+
+An easy way to recognize it on an exam
+If you see the following expressions in a question, Uniform Distribution is usually used:
+
+Equal probability
+
+Fair
+
+Any time
+
+Any position
+
+Every outcome has the same chance
+
+Quick Review
+Binomial → Fixed number of trials + two possible outcomes
+
+Poisson → Fixed time period or area + number of events
+
+Uniform → All outcomes have equal probability
+
+Normal → Values near the center are most common, and values toward the ends are less common
+
+Normal Distribution
+What is Normal Distribution?
+Normal Distribution is the most commonly used distribution in statistics. Values near the center are most common, while values toward the extremes become less common.
+
+Its shape looks like a bell, so it is also called the Bell Curve.
+
+Characteristics of Normal Distribution
+The curve is symmetric.
+
+The value at the center is the Mean (μ).
+
+Mean, Median, and Mode are equal.
+
+Values close to the center are most common, while extreme values are least common.
+
+Formula
+f(x) = 1 / (σ√(2π)) × e^(-(x-μ)²/(2σ²))
+
+When is Normal Distribution used?
+✔ Human height
+
+✔ Weight
+
+✔ Blood pressure
+
+✔ IQ scores
+
+✔ Exam scores
+
+✔ Product measurements in a factory
+
+✔ Many naturally occurring datasets
+
+An easy sentence to remember
+If the data are concentrated around the center and become less common toward the extremes, use Normal Distribution.
+
+The easiest way to remember
+Binomial → "How many successes?"
+
+Poisson → "How many events occur in a given time?"
+
+Uniform → "All outcomes have equal probability."
+
+Normal → "Most values are in the center, and fewer are at the extremes."
+
+68 – 95 – 99.7 Rule
+The most important rule for the Normal Distribution:
+
+Interval	Percentage of data
+μ ± 1σ	68%
+μ ± 2σ	95%
+μ ± 3σ	99.7%
+This rule is called the Empirical Rule.
+
+Z-Score
+What is Z-Score?
+It shows how many standard deviations a value is above or below the mean.
+
+In other words:
+
+Z-Score tells us how far a value is above or below the mean.
+
+Z-Score Formula
+Z = (X − μ) / σ
+
+Meaning of Z-Score
+Z-Score	Meaning
+Z = 0	The value is exactly equal to the mean
+Z > 0	The value is above the mean
+Z < 0	The value is below the mean
+Example 1: Exam Score
+For an exam:
+
+Mean score (μ) = 70
+
+Standard deviation (σ) = 5
+
+Ali's score (X) = 80
+
+Step 1: Substitute into the formula
+Z = (80 − 70) / 5
+
+Step 2: Calculate
+Z = 10 / 5 = 2
+
+Answer
+Ali's score is 2 standard deviations above the mean.
+
+Example 2: Height
+For students:
+
+Mean height = 170 cm
+
+Standard deviation = 10 cm
+
+Ahmet's height = 160 cm
+
+Formula
+Z = (160 − 170) / 10
+
+Calculation
+Z = -10 / 10 = -1
+
+Answer
+Ahmet's height is 1 standard deviation below the mean.
+
+Example 3: Weight
+For a group of people:
+
+Mean weight = 65 kg
+
+Standard deviation = 5 kg
+
+A person's weight = 75 kg
+
+Formula
+Z = (75 − 65) / 5
+
+Calculation
+Z = 2
+
+Answer
+The person's weight is 2 standard deviations above the mean.
+
+How do we understand Z-Score?
+If:
+
+Z = 0 → Exactly at the mean.
+
+Z = 1 → 1σ above the mean.
+
+Z = 2 → 2σ above the mean.
+
+Z = -1 → 1σ below the mean.
+
+Z = -2 → 2σ below the mean.
+
+When is Z-Score used?
+✔ Comparing exam scores
+
+✔ Evaluating students' heights
+
+✔ Checking weight
+
+✔ Comparing IQ scores
+
+✔ Statistical analysis
+
+Simple Explanation
+Imagine:
+
+The average score of students in a class is 70.
+
+If you score 70 → Z = 0
+
+If you score 80 → Z = 2
+
+If you score 65 → Z = -1
+
+Therefore, Z-Score is a measure that shows how far your result is from the mean.
+
+An easy sentence to remember
+Z-Score = "How many standard deviations (σ) away from the mean is this value?"
+
+An easy way to recognize it on an exam
+If a question gives you the following information, Z-Score is usually used:
+
+Mean (Mean, μ)
+
+Standard deviation (Standard Deviation, σ)
+
+The value of an individual or an object (X)
+
+A question asking, "How much higher or lower is it than the mean?"
+
+Quick Review
+Formula:
+
+Z = (X − μ) / σ
+
+If:
+
+Z > 0 → Above the mean
+
+Z = 0 → Equal to the mean
+
+Z < 0 → Below the mean
+
+Main purpose of Z-Score: To measure how far a value is from the mean.
+
+Lesson_9_Probability_Distributions_English.md
+
+
+Lesson 9 - Probability Distributions
+Basic Principle
+Real-world data are not random in a completely unstructured way - they follow certain patterns and distributions.
+
+Previous lesson continuation:
+Probability ← Distribution ← Inference
+
+What can we do with distributions?
+Prediction: What percentage of students will pass the exam?
+
+Risk assessment: How many times will it rain this year?
+
+Quality control: How many out of 10,000 products are defective?
+
+Decision making: Is this medicine reliable?
+
+Two major types of distributions
+Discrete: Values that can be counted.
+
+Example: Number of students, number of phones.
+
+Continuous: Values that can be measured.
+
+Example: Height, weight, time.
+
+Most important: Choosing the correct distribution is the basis for making the correct inference.
+
+Random Variable
+A variable that assigns a numerical value to the result of an experiment.
+
+Example 1:
+When a coin is tossed 10 times, the number of heads is a random variable. The possible number of heads is from 0 to 10, and the data type is discrete.
+
+Example 2:
+A person's height can vary. Height is a random variable, and the data type is continuous.
+
+Two types
+Discrete random variable
+
+Continuous random variable
+
+Discrete random variable
+Values that can be counted.
+
+Example:
+Number of children = 0, 1, 2, 3, ...
+
+Probability:
+
+P(X = x)
+
+Continuous random variable
+Values that can be measured.
+
+Example:
+Height = 170.5, 170.51, 170.512, ...
+
+Important difference
+Discrete
+P(X = x) has meaning.
+
+Example:
+
+P(X = 3) = 0.2
+
+Continuous
+P(X = x) does not have meaning.
+
+Only the following has meaning:
+
+P(a ≤ X ≤ b)
+
+Note: A distribution is the set of all possible values of a random variable and their probabilities.
+
+Four Key Distributions
+Normal Distribution
+The most common distribution. There are many values near the center and fewer values toward both ends.
+
+Uniform Distribution
+All possible outcomes have equal probability.
+
+Poisson Distribution
+Represents the number of times an event occurs within a specified time period or area.
+
+Binomial Distribution
+In n trials, each trial has two possible outcomes, and it represents the number of successes.
+
+Distribution Selection Decision Process
+Question 1: What type of data is it?
+Discrete (countable) → Go to Question 2.
+
+Continuous (measurable) → Normal or Uniform.
+
+Question 2: What is the nature of the event?
+Binomial or Poisson.
+
+Most important: Choosing the correct distribution is the basis for solving the problem.
+
+Binomial Distribution
+What is the Binomial Distribution?
+The Binomial Distribution is a probability distribution used to calculate how many times a success occurs in a fixed number of independent trials.
+
+There are 4 conditions for using it:
+
+The number of trials (n) must be fixed in advance.
+
+Each trial has only two possible outcomes.
+
+Success
+
+Failure
+
+The probability of success (p) is the same for every trial.
+
+The trials are independent of each other.
+
+Formula
+P(X = x) = C(n,x) × pˣ × (1-p)ⁿ⁻ˣ
+
+When is Binomial used?
+✔ Tossing a coin
+
+✔ Number of successful shots
+
+✔ Number of correct answers on an exam
+
+✔ Number of quality products in a factory
+
+✔ Whether a customer buys a product or not
+
+✔ Whether a medical treatment is effective
+
+Poisson Distribution
+What is the Poisson Distribution?
+The Poisson Distribution is a probability distribution used to calculate how many times an event occurs within a specified time period, interval, or area.
+
+Examples:
+
+How many phone calls arrive in one hour?
+
+How many customers arrive in one day?
+
+How many typing errors are on one page of a book?
+
+How many traffic accidents occur on one kilometer of road?
+
+All of these are examples of the Poisson Distribution.
+
+Conditions for Using Poisson
+Events are counted within a specified time period or area.
+
+Events occur independently.
+
+The average number of occurrences (λ) remains constant.
+
+The probability of two events occurring at exactly the same time is very small.
+
+Formula
+P(X = x) = e⁻ˡ × λˣ / x!
+
+Or written simply:
+
+P(X = x) = (e⁻ˡ × λˣ) / x!
+
+When is Poisson used?
+✔ Number of phone calls received in one hour
+
+✔ Number of customers arriving in one day
+
+✔ Number of typing errors on one page
+
+✔ Number of traffic accidents on a road
+
+✔ Number of emails received in one minute
+
+✔ Number of patients arriving at a hospital
+
+An easy way to recognize it on an exam
+If you see the following words in a question, Poisson Distribution is usually used:
+
+Every hour
+
+Every day
+
+Every minute
+
+Average / Mean
+
+How many events occur?
+
+A specified time period or area
+
+Quick review
+Binomial = Fixed number of trials (n) + two possible outcomes
+
+Poisson = Fixed time period or area + number of events (λ)
+
+Uniform Distribution
+What is Uniform Distribution?
+A distribution in which all possible outcomes have equal probability.
+
+In other words, no outcome has a higher or lower probability than another.
+
+Two Types of Uniform Distribution
+1. Discrete Uniform Distribution
+There are countable, separate values.
+
+Examples: Dice, cards, lottery numbers.
+
+2. Continuous Uniform Distribution
+Every value within an interval between two numbers has an equal probability.
+
+Examples: Time, length, weight.
+
+1. Discrete Uniform Distribution Formula
+If there are n outcomes with equal probability:
+
+P(X = x) = 1 / n
+
+Or written simply:
+
+P(X = x) = 1 / n
+
+When is Uniform Distribution used?
+✔ Rolling a fair die
+
+✔ A fair coin (Head and Tail are each 50%)
+
+✔ Lottery numbers
+
+✔ Selecting a card
+
+✔ Any time within a time interval
+
+✔ Any position within a length or interval
+
+An easy sentence to remember
+If all outcomes have equal probability, use Uniform Distribution.
+
+An easy way to recognize it on an exam
+If you see the following expressions in a question, Uniform Distribution is usually used:
+
+Equal probability
+
+Fair
+
+Any time
+
+Any position
+
+Every outcome has the same chance
+
+Quick Review
+Binomial → Fixed number of trials + two possible outcomes
+
+Poisson → Fixed time period or area + number of events
+
+Uniform → All outcomes have equal probability
+
+Normal → Values near the center are most common, and values toward the ends are less common
+
+Normal Distribution
+What is Normal Distribution?
+Normal Distribution is the most commonly used distribution in statistics. Values near the center are most common, while values toward the extremes become less common.
+
+Its shape looks like a bell, so it is also called the Bell Curve.
+
+Characteristics of Normal Distribution
+The curve is symmetric.
+
+The value at the center is the Mean (μ).
+
+Mean, Median, and Mode are equal.
+
+Values close to the center are most common, while extreme values are least common.
+
+Formula
+f(x) = 1 / (σ√(2π)) × e^(-(x-μ)²/(2σ²))
+
+When is Normal Distribution used?
+✔ Human height
+
+✔ Weight
+
+✔ Blood pressure
+
+✔ IQ scores
+
+✔ Exam scores
+
+✔ Product measurements in a factory
+
+✔ Many naturally occurring datasets
+
+An easy sentence to remember
+If the data are concentrated around the center and become less common toward the extremes, use Normal Distribution.
+
+The easiest way to remember
+Binomial → "How many successes?"
+
+Poisson → "How many events occur in a given time?"
+
+Uniform → "All outcomes have equal probability."
+
+Normal → "Most values are in the center, and fewer are at the extremes."
+
+68 – 95 – 99.7 Rule
+The most important rule for the Normal Distribution:
+
+Interval	Percentage of data
+μ ± 1σ	68%
+μ ± 2σ	95%
+μ ± 3σ	99.7%
+This rule is called the Empirical Rule.
+
+Z-Score
+What is Z-Score?
+It shows how many standard deviations a value is above or below the mean.
+
+In other words:
+
+Z-Score tells us how far a value is above or below the mean.
+
+Z-Score Formula
+Z = (X − μ) / σ
+
+Meaning of Z-Score
+Z-Score	Meaning
+Z = 0	The value is exactly equal to the mean
+Z > 0	The value is above the mean
+Z < 0	The value is below the mean
+Example 1: Exam Score
+For an exam:
+
+Mean score (μ) = 70
+
+Standard deviation (σ) = 5
+
+Ali's score (X) = 80
+
+Step 1: Substitute into the formula
+Z = (80 − 70) / 5
+
+Step 2: Calculate
+Z = 10 / 5 = 2
+
+Answer
+Ali's score is 2 standard deviations above the mean.
+
+Example 2: Height
+For students:
+
+Mean height = 170 cm
+
+Standard deviation = 10 cm
+
+Ahmet's height = 160 cm
+
+Formula
+Z = (160 − 170) / 10
+
+Calculation
+Z = -10 / 10 = -1
+
+Answer
+Ahmet's height is 1 standard deviation below the mean.
+
+Example 3: Weight
+For a group of people:
+
+Mean weight = 65 kg
+
+Standard deviation = 5 kg
+
+A person's weight = 75 kg
+
+Formula
+Z = (75 − 65) / 5
+
+Calculation
+Z = 2
+
+Answer
+The person's weight is 2 standard deviations above the mean.
+
+How do we understand Z-Score?
+If:
+
+Z = 0 → Exactly at the mean.
+
+Z = 1 → 1σ above the mean.
+
+Z = 2 → 2σ above the mean.
+
+Z = -1 → 1σ below the mean.
+
+Z = -2 → 2σ below the mean.
+
+When is Z-Score used?
+✔ Comparing exam scores
+
+✔ Evaluating students' heights
+
+✔ Checking weight
+
+✔ Comparing IQ scores
+
+✔ Statistical analysis
+
+Simple Explanation
+Imagine:
+
+The average score of students in a class is 70.
+
+If you score 70 → Z = 0
+
+If you score 80 → Z = 2
+
+If you score 65 → Z = -1
+
+Therefore, Z-Score is a measure that shows how far your result is from the mean.
+
+An easy sentence to remember
+Z-Score = "How many standard deviations (σ) away from the mean is this value?"
+
+An easy way to recognize it on an exam
+If a question gives you the following information, Z-Score is usually used:
+
+Mean (Mean, μ)
+
+Standard deviation (Standard Deviation, σ)
+
+The value of an individual or an object (X)
+
+A question asking, "How much higher or lower is it than the mean?"
+
+Quick Review
+Formula:
+
+Z = (X − μ) / σ
+
+If:
+
+Z > 0 → Above the mean
+
+Z = 0 → Equal to the mean
+
+Z < 0 → Below the mean
+
+Main purpose of Z-Score: To measure how far a value is from the mean.
+
