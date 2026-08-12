@@ -1,0 +1,465 @@
+# Lesson 10
+
+# Sampling and the Central Limit Theorem
+
+This lesson is the **bridge between distributions and statistical inference.**
+
+The three main concepts in this lesson are:
+
+1. Sampling Distribution
+2. Standard Error
+3. Central Limit Theorem
+
+## The Main Question of This Lesson
+
+**Why can we make reliable conclusions about an entire population using only a small sample?**
+
+---
+
+# 1. Sampling Distribution
+
+## What is Sampling Distribution?
+
+A **Sampling Distribution** is the distribution of a statistic, such as the sample mean, obtained when we repeatedly take samples of the same size from the same population.
+
+In simple words:
+
+We take many samples from the same population.
+
+We calculate the mean of each sample.
+
+The distribution of all these sample means is called the **Sampling Distribution**.
+
+---
+
+# Simple Example
+
+Imagine that a school has **1000 students**.
+
+Instead of measuring the height of every student, we select **10 students** each time.
+
+## Sample 1
+
+160, 162, 158, 165, 161, 159, 160, 164, 163, 158
+
+Mean:
+
+X̄ = 161 cm
+
+## Sample 2
+
+157, 160, 161, 159, 162, 158, 160, 159, 163, 161
+
+Mean:
+
+X̄ = 160 cm
+
+## Sample 3
+
+162, 163, 160, 161, 164, 159, 162, 160, 161, 163
+
+Mean:
+
+X̄ = 161.5 cm
+
+If we repeat this process **1000 times**, the sample means might look like this:
+
+160
+
+160.5
+
+161
+
+159.8
+
+161.3
+
+160.7
+
+...
+
+The **distribution of these sample means** is called the:
+
+**Sampling Distribution**
+
+---
+
+# Why is Sampling Distribution Important?
+
+It is not easy to examine every person in a population.
+
+Therefore:
+
+* We select a sample.
+* We calculate the sample mean.
+* We use this information to make an estimate about the entire population.
+
+Sampling Distribution helps us to:
+
+* Estimate the Population Mean.
+* Calculate a Confidence Interval.
+* Perform Hypothesis Testing.
+
+---
+
+# 2. Standard Error (SE)
+
+**Turkish: Standart Hata**
+
+## 1. What is Standard Error (SE)?
+
+**Standard Error** is a measure that shows how much the sample mean may vary from the true population mean.
+
+In simple words:
+
+**Standard Deviation (SD)** shows how much individual data values differ from each other.
+
+**Standard Error (SE)** shows how much the **sample mean may vary** and how precise our estimate of the population mean is.
+
+---
+
+# 2. Standard Error Formula
+
+If the Population Standard Deviation is known:
+
+SE = σ / √n
+
+If the Population Standard Deviation is unknown and the Sample Standard Deviation is used:
+
+SE = s / √n
+
+Where:
+
+**SE** = Standard Error
+
+**σ** = Population Standard Deviation
+
+**s** = Sample Standard Deviation
+
+**n** = Sample Size
+
+**√n** = Square root of n
+
+---
+
+# 3. Example 1
+
+Suppose:
+
+Sample Standard Deviation = 10
+
+Sample Size = 25
+
+Calculation:
+
+SE = 10 / √25
+
+√25 = 5
+
+SE = 10 ÷ 5 = 2
+
+**Answer:**
+
+SE = 2
+
+### Explanation:
+
+This means that the sample mean typically varies around the true population mean by an amount related to **2 units** of standard error.
+
+---
+
+# 4. Example 2
+
+Suppose:
+
+Standard Deviation = 15
+
+Sample Size = 100
+
+Calculation:
+
+SE = 15 / √100
+
+√100 = 10
+
+SE = 15 ÷ 10 = 1.5
+
+**Answer:**
+
+SE = 1.5
+
+### Explanation:
+
+Because the sample size is larger, the Standard Error becomes smaller.
+
+This means that the sample mean is estimated with greater precision.
+
+---
+
+# 5. Example 3
+
+Suppose:
+
+Standard Deviation = 12
+
+Sample Size = 9
+
+Calculation:
+
+SE = 12 / √9
+
+√9 = 3
+
+SE = 12 ÷ 3 = 4
+
+**Answer:**
+
+SE = 4
+
+### Explanation:
+
+Because the sample size is small, the Standard Error is larger.
+
+This means that the sample mean has greater variability and the estimate is less precise.
+
+---
+
+# 6. Difference Between Standard Deviation and Standard Error
+
+| Standard Deviation (SD)                                 | Standard Error (SE)                            |
+| ------------------------------------------------------- | ---------------------------------------------- |
+| Shows the spread of individual data values.             | Shows the variability of the sample mean.      |
+| Measures Individual Data.                               | Measures Sample Mean.                          |
+| Is related to the data itself.                          | Is related to the sample mean and sample size. |
+| Does not automatically become smaller when n increases. | Becomes smaller as n increases.                |
+
+---
+
+# 7. Easy Way to Remember
+
+**Standard Deviation (SD)** → Shows how spread out the data are.
+
+**Standard Error (SE)** → Shows how much the sample mean varies.
+
+**Sample Size (n)** increases → **SE** decreases.
+
+**SE** is smaller → The sample mean is estimated more precisely.
+
+---
+
+# Short Summary
+
+**Standard Error (SE)** is a measure of how much the sample mean can vary from the true population mean.
+
+The most common formula is:
+
+SE = s / √n
+
+If the Population Standard Deviation is known:
+
+SE = σ / √n
+
+The smaller the Standard Error, the more precise the sample mean estimate is.
+
+As the sample size increases, the Standard Error generally decreases.
+
+---
+
+# 3. Central Limit Theorem (CLT)
+
+**Turkish: Merkezi Limit Teoremi**
+
+---
+
+# 1. What is the Central Limit Theorem?
+
+The **Central Limit Theorem (CLT)** states that:
+
+If we repeatedly take samples of the same size from a large population, the distribution of the **sample means** approaches a normal distribution as the sample size becomes sufficiently large.
+
+---
+
+# 2. Simple Explanation
+
+Imagine that a school has **10,000 students**.
+
+The students have different heights:
+
+* Some are short.
+* Some are average height.
+* Some are very tall.
+
+Now, we select **30 students** each time.
+
+We calculate the average height of these 30 students.
+
+We repeat this process **100 times**.
+
+At the end, we have 100 sample means.
+
+If we plot these 100 sample means on a graph, the distribution will tend to have a **bell shape** and approach a **Normal Distribution**.
+
+This is explained by the **Central Limit Theorem**.
+
+---
+
+# 3. Important Conditions of the CLT
+
+For the Central Limit Theorem to be applied appropriately:
+
+* The samples should be selected randomly.
+* The observations should be independent.
+* The sample size should be sufficiently large.
+
+A commonly used guideline is:
+
+**n ≥ 30**
+
+However, **n ≥ 30 is not an absolute rule**. The required sample size depends on the population distribution and the statistical method being used.
+
+---
+
+# 4. CLT Formula
+
+The distribution of the Sample Mean can be represented as:
+
+X̄ ~ N(μ, σ / √n)
+
+Where:
+
+**X̄** = Sample Mean
+
+**μ** = Population Mean
+
+**σ** = Population Standard Deviation
+
+**n** = Sample Size
+
+---
+
+# 5. Standard Error (SE)
+
+If the Population Standard Deviation is known:
+
+SE = σ / √n
+
+If the Population Standard Deviation is unknown and the Sample Standard Deviation is used:
+
+SE = s / √n
+
+---
+
+# 6. Example 1
+
+Suppose:
+
+Population Mean = 70
+
+Population Standard Deviation = 12
+
+Sample Size = 36
+
+Calculation:
+
+SE = 12 / √36
+
+√36 = 6
+
+SE = 12 ÷ 6 = 2
+
+### Result:
+
+Mean = 70
+
+Standard Error = 2
+
+This means that the sampling distribution of the sample mean has a mean of **70** and a Standard Error of **2**.
+
+---
+
+# 7. Example 2
+
+Suppose the daily working hours of workers in a factory are different.
+
+For example:
+
+* Some workers work 5 hours.
+* Some workers work 7 hours.
+* Some workers work 9 hours.
+* Some workers work 12 hours.
+
+The population may not have a normal distribution.
+
+However, if we select **40 workers** each time and calculate their average working hours, and repeat this process **200 times**, the distribution of the **200 Sample Means** will tend to approach a **Normal Distribution**.
+
+This is a result of the **Central Limit Theorem**.
+
+---
+
+# 8. Example 3
+
+Imagine that a city has **100,000 people**.
+
+Each time:
+
+We select **50 people**.
+
+We calculate their average income.
+
+We repeat this process **500 times**.
+
+The distribution of the **500 Sample Means** will tend to have a **bell shape** and approach a Normal Distribution.
+
+This is another example of the **Central Limit Theorem**.
+
+---
+
+# 9. Why is the CLT Important?
+
+The **Central Limit Theorem** is one of the most important concepts in statistics.
+
+It provides an important foundation for making statistical conclusions about a population using information from a sample.
+
+The CLT plays an important role in understanding and applying methods such as:
+
+* Confidence Interval
+* Hypothesis Testing
+* Z-test
+* T-test
+* Regression Analysis
+
+---
+
+# General Summary
+
+In this lesson, we learned three main concepts:
+
+## 1. Sampling Distribution
+
+The distribution created by the **sample statistics**, especially sample means, obtained from many repeated samples.
+
+## 2. Standard Error
+
+A measure of how much the sample mean varies from sample to sample.
+
+Formula:
+
+SE = σ / √n
+
+or
+
+SE = s / √n
+
+## 3. Central Limit Theorem
+
+When sufficiently large samples are repeatedly taken, the distribution of the sample means approaches a **Normal Distribution**, even when the population itself is not normally distributed.
+
+---
+
+# Main Idea of This Lesson
+
+**Population → Sample → Sample Mean → Sampling Distribution → Standard Error → Central Limit Theorem → Reliable Statistical Conclusions**
+
+In other words:
+
+**We can use information from a sample to make reliable statistical conclusions about a large population when we use appropriate sampling methods and statistical techniques.**
