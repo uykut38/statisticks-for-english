@@ -1,0 +1,647 @@
+# Lesson 11
+
+# Inferential Statistics
+
+---
+
+# CONFIDENCE INTERVAL
+
+## What is a Confidence Interval?
+
+A **Confidence Interval** is a statistical method that uses a sample to estimate the range in which the true value of a population may lie.
+
+A Confidence Interval tells us:
+
+**"The true value may be within this range."**
+
+---
+
+# Simple Example
+
+Imagine that a school has **1000 students**.
+
+Instead of examining all 1000 students, we select **100 students**.
+
+The average height of the 100 students is:
+
+Mean = 160 cm
+
+However, 160 cm may not be the true average height of all 1000 students.
+
+Therefore, we may obtain:
+
+95% Confidence Interval = 158 cm to 162 cm
+
+This means:
+
+**We estimate the population mean to be between 158 cm and 162 cm with a 95% confidence level.**
+
+---
+
+# What is Confidence Level?
+
+**Confidence Level** is the level of confidence associated with a Confidence Interval.
+
+The most commonly used Confidence Levels are:
+
+90% Confidence Level
+
+95% Confidence Level
+
+99% Confidence Level
+
+The most commonly used one is:
+
+**95% Confidence Level**
+
+---
+
+# How do we interpret a 95% Confidence Interval?
+
+For example:
+
+Sample Mean = 50
+
+95% Confidence Interval = 47 to 53
+
+This means:
+
+**The population mean is estimated to be between 47 and 53.**
+
+We are using a **95% Confidence Level** for this interval.
+
+---
+
+# Basic Formula of Confidence Interval
+
+Confidence Interval = Estimate ± Margin of Error
+
+Where:
+
+**Estimate** = The estimated value obtained from the Sample
+
+**Margin of Error** = The amount added to and subtracted from the estimate
+
+---
+
+# Simple Calculation Example
+
+For example:
+
+Sample Mean = 100
+
+Margin of Error = 5
+
+Therefore:
+
+Confidence Interval = 100 ± 5
+
+Lower limit:
+
+100 - 5 = 95
+
+Upper limit:
+
+100 + 5 = 105
+
+Therefore:
+
+95% Confidence Interval = 95 to 105
+
+---
+
+# Why is Confidence Interval Important?
+
+A Confidence Interval gives us a **range** instead of only one number.
+
+For example:
+
+Sample Mean = 70
+
+If we only say 70, this is a single estimate.
+
+However:
+
+95% Confidence Interval = 67 to 73
+
+gives us a more complete estimate of the Population Mean.
+
+---
+
+# The Easiest Way to Remember Confidence Interval
+
+**Confidence Interval = "Within what range could the true value be?"**
+
+For example:
+
+Mean = 80
+
+Confidence Interval = 76 to 84
+
+This means:
+
+**The true Population Mean may be between 76 and 84.**
+
+---
+
+# Short Summary
+
+**Confidence Interval = A range used to estimate a population parameter.**
+
+It uses a Sample to estimate the true value of a Population.
+
+The most commonly used Confidence Level = 95%
+
+Basic formula:
+
+Confidence Interval = Estimate ± Margin of Error
+
+For example:
+
+Estimate = 100
+
+Margin of Error = 5
+
+Confidence Interval = 95 to 105
+
+Remember:
+
+**Sample → We estimate the Population.**
+
+**Confidence Interval → Shows the range in which the true value may lie.**
+
+---
+
+# HYPOTHESIS TESTING
+
+# Hypothesis Testing
+
+## What is Hypothesis Testing?
+
+**Hypothesis Testing** is a statistical method used to evaluate a claim about a population using sample data.
+
+In simple words:
+
+We make a hypothesis.
+
+Then we take a Sample.
+
+We analyze the Sample results.
+
+Finally, we make a statistical decision about the hypothesis.
+
+---
+
+# Simple Example
+
+Suppose a factory claims that the average amount of water in a bottle is:
+
+500 ml
+
+We want to determine whether this claim is supported by the data.
+
+We select **50 bottles** as a Sample.
+
+We examine these 50 bottles and calculate their average amount.
+
+For example:
+
+Sample Mean = 497 ml
+
+Now the question is:
+
+**Is the factory's claim that the average amount is 500 ml supported by the data?**
+
+Hypothesis Testing helps us answer this question.
+
+---
+
+# What is a Hypothesis?
+
+A **Hypothesis** is a claim or assumption that we want to test.
+
+In Hypothesis Testing, there are usually two types of hypotheses:
+
+1. Null Hypothesis
+2. Alternative Hypothesis
+
+---
+
+# 1. Null Hypothesis
+
+**H₀**
+
+The Null Hypothesis is usually the basic assumption that there is **"no change"** or **"no difference."**
+
+For example:
+
+A factory claims that the average amount in a bottle is 500 ml.
+
+Null Hypothesis:
+
+H₀: μ = 500
+
+---
+
+# 2. Alternative Hypothesis
+
+**H₁**
+
+The Alternative Hypothesis is the alternative claim to the Null Hypothesis.
+
+For example:
+
+H₁: μ ≠ 500
+
+This means:
+
+**"The average amount is not equal to 500 ml."**
+
+---
+
+# How does Hypothesis Testing work?
+
+It usually follows these steps:
+
+1. Define the Hypothesis.
+2. Take a Sample.
+3. Calculate the Sample results.
+4. Find the P-value.
+5. Compare the P-value with the Significance Level.
+6. Reject or Fail to Reject the Null Hypothesis.
+
+---
+
+# What is Significance Level?
+
+**Significance Level**
+
+α
+
+The Significance Level is the threshold we use when deciding whether to reject the Null Hypothesis.
+
+The most commonly used value is:
+
+α = 0.05
+
+This means:
+
+**5%**
+
+If:
+
+α = 0.05
+
+then we use 5% as the Significance Level.
+
+---
+
+# What is P-value?
+
+**P-value** is a value used to evaluate how unusual the observed Sample result would be if the Null Hypothesis were true.
+
+In simple terms:
+
+**If the P-value is small**, the Sample result is less consistent with the Null Hypothesis.
+
+**If the P-value is large**, the Sample result is more consistent with the Null Hypothesis.
+
+---
+
+# Comparing P-value with α
+
+The most important rule is:
+
+If:
+
+P-value < α
+
+then:
+
+Reject H₀
+
+This means:
+
+**We reject the Null Hypothesis.**
+
+If:
+
+P-value ≥ α
+
+then:
+
+Fail to Reject H₀
+
+This means:
+
+**There is not enough evidence to reject the Null Hypothesis.**
+
+---
+
+# Simple Example
+
+Suppose:
+
+H₀: μ = 500
+
+Significance Level:
+
+α = 0.05
+
+After analyzing the Sample:
+
+P-value = 0.02
+
+We compare:
+
+0.02 < 0.05
+
+Therefore:
+
+Reject H₀
+
+This means:
+
+**"There is sufficient statistical evidence to reject the Null Hypothesis."**
+
+---
+
+# Another Simple Example
+
+Suppose:
+
+H₀: μ = 500
+
+Significance Level:
+
+α = 0.05
+
+Sample result:
+
+P-value = 0.20
+
+We compare:
+
+0.20 > 0.05
+
+Therefore:
+
+Fail to Reject H₀
+
+This means:
+
+**"There is not enough evidence to reject the Null Hypothesis."**
+
+---
+
+# Understanding Hypothesis Testing in the Simplest Way
+
+A person says:
+
+**"The average amount of water in the bottles produced by this factory is 500 ml."**
+
+We do not immediately believe the claim, and we do not immediately reject it.
+
+We take a Sample.
+
+We examine the Sample.
+
+We analyze the results statistically.
+
+Then we make a decision.
+
+---
+
+# The Two Most Important Decisions
+
+P-value < α
+
+↓
+
+Reject H₀
+
+↓
+
+We reject the Null Hypothesis.
+
+---
+
+P-value ≥ α
+
+↓
+
+Fail to Reject H₀
+
+↓
+
+There is not enough evidence to reject the Null Hypothesis.
+
+---
+
+# Short Summary
+
+**Hypothesis Testing**
+
+A statistical method for testing a claim about a population.
+
+**Null Hypothesis**
+
+H₀
+
+The basic assumption or claim being tested.
+
+**Alternative Hypothesis**
+
+H₁
+
+The alternative claim to the Null Hypothesis.
+
+**Significance Level**
+
+α
+
+Usually 0.05.
+
+**P-value**
+
+A value used to evaluate how consistent the Sample result is with the Null Hypothesis.
+
+The most important rule:
+
+P-value < α
+
+Reject H₀
+
+P-value ≥ α
+
+Fail to Reject H₀
+
+The easiest way to remember:
+
+**Small P-value**
+
+↓
+
+**Reject H₀.**
+
+**Large P-value**
+
+↓
+
+**Not enough evidence to reject H₀.**
+
+---
+
+# Z-SCORE
+
+## What is Z-Score?
+
+**Z-Score** is a measure that tells us **how far a value is from the mean**.
+
+In other words, it answers the question:
+
+**"How many Standard Deviations away from the mean is this value?"**
+
+---
+
+# Z-Score Formula
+
+z = (x - μ) / σ
+
+Where:
+
+**x** = The value we want to examine
+
+**μ** = Mean
+
+**σ** = Standard Deviation
+
+**z** = Z-Score
+
+---
+
+# The Simplest Example
+
+Suppose the exam scores of students in a class have:
+
+Mean = 70
+
+Standard Deviation = 10
+
+Suppose one student's score is:
+
+x = 80
+
+Let's calculate the Z-Score.
+
+Substitute the values into the formula:
+
+z = (80 - 70) / 10
+
+z = 10 / 10
+
+z = 1
+
+Result:
+
+**Z-Score = 1**
+
+What does this mean?
+
+The student's score is **1 Standard Deviation above the Mean.**
+
+---
+
+# Another Example
+
+Suppose a student's score is:
+
+x = 60
+
+Then:
+
+z = (60 - 70) / 10
+
+z = -10 / 10
+
+z = -1
+
+Result:
+
+**Z-Score = -1**
+
+This means:
+
+The student's score is **1 Standard Deviation below the Mean.**
+
+---
+
+# Positive and Negative Z-Scores
+
+The sign of the Z-Score tells us which side of the Mean the value is on.
+
+**z = 0**
+
+The value is equal to the Mean.
+
+**z > 0**
+
+The value is above the Mean.
+
+**z < 0**
+
+The value is below the Mean.
+
+For example:
+
+z = 2 → 2 Standard Deviations above the Mean.
+
+z = 1 → 1 Standard Deviation above the Mean.
+
+z = 0 → Equal to the Mean.
+
+z = -1 → 1 Standard Deviation below the Mean.
+
+z = -2 → 2 Standard Deviations below the Mean.
+
+---
+
+# Why do we use Z-Score?
+
+One of the most important uses of Z-Score is:
+
+**Comparing different values on the same standardized scale.**
+
+For example, a student gets 80 in Math and 85 in English.
+
+It may not always be correct to compare these two scores directly.
+
+This is because the Mean and Standard Deviation of the two subjects may be different.
+
+Using Z-Scores, we can convert both scores to the same standardized scale and compare them.
+
+---
+
+# Short Reminder
+
+**Z-Score = The number of Standard Deviations a value is away from the Mean.**
+
+Formula:
+
+z = (x - μ) / σ
+
+If:
+
+z = 0 → Equal to the Mean
+
+z = +1 → 1 Standard Deviation above the Mean
+
+z = +2 → 2 Standard Deviations above the Mean
+
+z = -1 → 1 Standard Deviation below the Mean
+
+z = -2 → 2 Standard Deviations below the Mean
+
+## Most Important Sentence
+
+**Z-Score shows how far a value is from the Mean in terms of Standard Deviations.**
