@@ -1,0 +1,566 @@
+LESSON 2: DATA TYPES AND LEVELS OF MEASUREMENT
+
+1. DATA
+
+Data: A collection of values collected from the objects or individuals being studied.
+Data includes all values collected for a specific research study.
+
+Examples:
+
+* Students' exam scores
+* Daily temperature
+* The speed of cars
+
+2. VARIABLE
+
+A variable is a characteristic or property that can change.
+
+Examples:
+
+* Height
+* Age
+* Income
+
+Important point:
+The specific value of a variable for one individual or object is called an observation.
+
+3. POPULATION AND SAMPLE
+
+The two most important concepts in statistics are:
+
+1. Population
+2. Sample
+
+POPULATION
+
+Population: The complete group of all individuals or objects that we want to study.
+
+Examples:
+
+* All citizens in a country
+* All products in a factory
+* All students in a school
+
+SAMPLE
+
+Sample: A smaller group selected from the population.
+
+Examples:
+
+* 50 people selected from 1,000 citizens
+* 10 products selected from a factory
+* 100 students selected from a school
+
+PARAMETER
+
+Parameter: A numerical value that describes a population.
+
+Example:
+The average age of the population of a country.
+
+STATISTIC
+
+Statistic: A numerical value calculated from a sample.
+
+Example:
+The average height of 50 people.
+
+IMPORTANT:
+
+A sample should represent the population.
+Random sampling is one of the most important principles of selecting a representative sample.
+
+4. TYPES OF DATA
+
+Data can generally be divided into two main types:
+
+1. Qualitative Data
+
+2. Quantitative Data
+
+3. QUALITATIVE DATA
+
+Qualitative data describes a quality, characteristic, or category.
+
+It is divided into two types:
+
+a) Nominal Data
+b) Ordinal Data
+
+NOMINAL DATA
+
+Nominal data consists of categories that have no natural order or ranking.
+
+Examples:
+
+* Gender
+* Color
+* Country
+* Blood type
+
+ORDINAL DATA
+
+Ordinal data consists of categories that can be arranged in a meaningful order.
+
+Examples:
+
+* Education level
+* Satisfaction level
+* Achievement level
+
+2. QUANTITATIVE DATA
+
+Quantitative data is data expressed using numbers.
+
+It is divided into two types:
+
+a) Discrete Data
+b) Continuous Data
+
+DISCRETE DATA
+
+Discrete data consists of values that can be counted and are usually whole numbers.
+
+Examples:
+
+* Number of children
+* Number of houses
+* Number of students
+* Number of tables in a classroom
+
+CONTINUOUS DATA
+
+Continuous data consists of values that can be measured and can take any value within a range.
+
+Examples:
+
+* Temperature
+* Time
+* Height
+* Weight
+
+IMPORTANT NOTE:
+
+Correctly identifying the type of data is the basis for choosing the correct statistical method.
+
+5. LEVELS OF MEASUREMENT
+
+There are four levels of measurement:
+
+1. Nominal Scale
+
+2. Ordinal Scale
+
+3. Interval Scale
+
+4. Ratio Scale
+
+5. NOMINAL SCALE
+
+Nominal scale is used only to classify data into categories.
+There is no order or ranking between the categories.
+
+Examples:
+
+* Gender
+* Blood type
+* Color
+* Country
+
+2. ORDINAL SCALE
+
+Ordinal data can be ranked or ordered.
+However, the differences between the categories are not necessarily equal.
+
+Examples:
+
+* Education level
+* Satisfaction level
+* Achievement ranking
+
+3. INTERVAL SCALE
+
+The intervals between values are equal.
+However, there is no true and meaningful zero point.
+
+Examples:
+
+* Temperature in Celsius
+* Calendar years
+
+For example:
+
+20 degrees Celsius is 10 degrees higher than 10 degrees Celsius.
+However, 20 degrees Celsius is not twice as hot as 10 degrees Celsius.
+
+4. RATIO SCALE
+
+The intervals between values are equal, and there is a true zero point.
+Therefore, meaningful ratio comparisons can be made.
+
+Examples:
+
+* Height
+* Weight
+* Age
+* Income
+* Time
+
+For example:
+
+20 kg is twice as much as 10 kg.
+
+WHY IS THIS IMPORTANT?
+
+Each level of measurement has appropriate statistical methods.
+
+Nominal:
+
+* Frequency
+* Percentage
+* Proportion
+
+Ordinal:
+
+* Ranking
+* Median
+* Percentiles
+
+Interval and Ratio:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Mean
+* Variance
+* Standard deviation
+
+and other mathematical and statistical operations can be used.
+
+6. MEASURES OF CENTRAL TENDENCY
+
+There are three main measures of central tendency:
+
+1. Mean
+
+2. Median
+
+3. Mode
+
+4. MEAN
+
+The mean is the value obtained by dividing the sum of all numbers by the total number of values.
+
+Formula:
+
+Mean = Sum of all values / Number of values
+
+Example:
+
+Numbers:
+
+2, 4, 4, 3, 7
+
+1. Sum of the numbers:
+
+2 + 4 + 4 + 3 + 7 = 20
+
+2. Number of values:
+
+5
+
+3. Calculation:
+
+20 / 5 = 4
+
+Result:
+
+Mean = 4
+
+2. MEDIAN
+
+The median is the middle value after the numbers are arranged from smallest to largest.
+
+Example 1: When the number of values is odd
+
+Numbers:
+
+2, 4, 4, 3, 7
+
+Arrange from smallest to largest:
+
+2, 3, 4, 4, 7
+
+The middle value:
+
+4
+
+Result:
+
+Median = 4
+
+Example 2: When the number of values is even
+
+Numbers:
+
+2, 4, 4, 3, 7, 10
+
+Arrange from smallest to largest:
+
+2, 3, 4, 4, 7, 10
+
+The two middle values:
+
+4 and 4
+
+Calculation:
+
+(4 + 4) / 2 = 4
+
+Result:
+
+Median = 4
+
+3. MODE
+
+The mode is the value that occurs most frequently in a data set.
+
+Example:
+
+2, 4, 4, 3, 7
+
+The number 4 occurs two times.
+The other numbers occur only once.
+
+Result:
+
+Mode = 4
+
+7. MEASURES OF DISPERSION
+
+The main measures of dispersion are:
+
+1. Range
+
+2. Variance
+
+3. Standard Deviation
+
+4. RANGE
+
+Range is the difference between the maximum value and the minimum value.
+
+Formula:
+
+Range = Max - Min
+
+Example:
+
+85, 90, 85, 80, 75
+
+Max = 90
+Min = 75
+
+Range = 90 - 75 = 15
+
+Result:
+
+Range = 15
+
+2. VARIANCE
+
+Variance measures the average squared distance of each value from the mean.
+
+Formula for population variance:
+
+Variance = Sum of (xi - x_mean)^2 / N
+
+Where:
+
+xi = Each data value
+x_mean = Mean
+N = Number of values
+
+3. STANDARD DEVIATION
+
+Standard deviation is the square root of the variance.
+
+Formula:
+
+Standard Deviation = sqrt(Variance)
+
+Example:
+
+Variance = 25
+
+Standard Deviation = sqrt(25) = 5
+
+Result:
+
+Standard Deviation = 5
+
+8. BASIC PROBABILITY
+
+WHAT IS PROBABILITY?
+
+Probability is a numerical measure of how likely an event is to occur.
+
+Basic formula:
+
+P(A) = Number of favorable outcomes / Total number of possible outcomes
+
+BASIC PROBABILITY RULES
+
+The probability value is:
+
+0 <= P(A) <= 1
+
+CERTAIN EVENT
+
+An event that will definitely happen has a probability of:
+
+P(A) = 1
+
+IMPOSSIBLE EVENT
+
+An event that cannot happen has a probability of:
+
+P(A) = 0
+
+COMPLEMENT RULE
+
+P(A') = 1 - P(A)
+
+EXAMPLES
+
+Example 1: Tossing a coin
+
+When a coin is tossed, the probability of getting heads is:
+
+P(Heads) = 1 / 2 = 0.5
+
+Example 2: Rolling a die
+
+When a die is rolled, the probability of getting a 6 is:
+
+P(6) = 1 / 6 = 0.167
+
+Example 3: Drawing a ball from a box
+
+Suppose a box contains:
+
+3 red balls
+2 blue balls
+
+Total number of balls:
+
+3 + 2 = 5
+
+Probability of drawing a red ball:
+
+P(Red) = 3 / 5 = 0.6
+
+9. INFERENTIAL STATISTICS
+
+Inferential statistics uses sample data to make conclusions about a population.
+
+The main methods are:
+
+1. Estimation
+
+2. Hypothesis Testing
+
+3. ESTIMATION
+
+Estimation means using sample data to estimate a population parameter.
+
+There are two main types of estimation:
+
+a) Point Estimation
+b) Interval Estimation
+
+2. HYPOTHESIS TESTING
+
+Hypothesis testing is the statistical process of testing a hypothesis about a population.
+
+Example:
+
+Does a new medicine reduce blood pressure?
+
+STEPS OF HYPOTHESIS TESTING
+
+1. State the Null Hypothesis (H0) and Alternative Hypothesis (H1).
+
+2. Determine the Significance Level (alpha).
+
+3. Calculate the Test Statistic.
+
+4. Find the P-value or compare the Test Statistic with the Critical Value.
+
+5. Make a decision:
+
+   * Reject H0.
+   * Fail to reject H0.
+
+SHORT SUMMARY
+
+Data:
+Values collected during a research study.
+
+Variable:
+A characteristic that can change.
+
+Population:
+The complete group that we want to study.
+
+Sample:
+A smaller group selected from the population.
+
+Parameter:
+A numerical value that describes a population.
+
+Statistic:
+A numerical value calculated from a sample.
+
+Qualitative Data:
+Data that describes categories or characteristics.
+
+Quantitative Data:
+Data expressed using numerical values.
+
+Nominal:
+Used only to classify data into categories.
+
+Ordinal:
+Data that can be ranked or ordered.
+
+Interval:
+Equal intervals exist, but there is no true zero point.
+
+Ratio:
+Equal intervals exist and there is a true zero point.
+
+Mean:
+The arithmetic average of the data.
+
+Median:
+The middle value of ordered data.
+
+Mode:
+The value that occurs most frequently.
+
+Range:
+The difference between the maximum and minimum values.
+
+Variance:
+A measure of how far the data values are spread from the mean.
+
+Standard Deviation:
+The square root of the variance.
+
+Probability:
+The likelihood that an event will occur.
+
+Inferential Statistics:
+Using sample data to make conclusions about a population.
