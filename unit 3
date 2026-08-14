@@ -1,0 +1,386 @@
+LESSON 3
+
+DATA COLLECTION AND SAMPLING
+
+Poorly collected data will never produce good results.
+
+Garbage in, Garbage out.
+
+If garbage goes in, garbage comes out.
+
+Even the best statistical method in the world cannot produce a good result if the data are poor.
+
+OBJECTIVE OF THIS LESSON
+
+When you collect data or examine someone else's data, you should be able to evaluate whether the sample is appropriate and identify possible sources of error.
+
+THREE MAIN METHODS OF DATA COLLECTION
+
+1. Census
+   Examining the entire population
+
+2. Survey
+   Collecting data through questions
+
+3. Sampling
+   Selecting a small part of a population and making conclusions about the entire population
+
+4. CENSUS
+
+A Census means studying or collecting information from every individual or unit in the entire population.
+
+ADVANTAGES:
+
+* Includes everyone.
+* Provides very accurate information.
+* Every unit is included in the analysis.
+* Detailed analysis can be performed.
+
+DISADVANTAGES:
+
+* Expensive.
+* Time-consuming.
+* Often impossible to carry out.
+* Sometimes destructive.
+
+Example:
+
+In a drug test, testing all animals may cause all of them to be harmed or killed.
+
+EXAMPLES:
+
+* National population census
+* School examinations
+* Factory quality control
+* Hospital records
+
+WHEN SHOULD WE USE A CENSUS?
+
+Use a Census when:
+
+* The population is small.
+* Very high accuracy is required.
+* There is enough time and resources.
+
+2. SAMPLING
+
+Sampling means selecting a small group that represents the larger population.
+
+The purpose is to use the sample to make conclusions about the entire population.
+
+ADVANTAGES:
+
+* Fast
+* Less expensive
+* Practical
+* Easier to carry out
+
+DISADVANTAGES:
+
+* There is a possibility of sampling error.
+* If the sample is poorly selected, the results may be wrong.
+
+EXAMPLE:
+
+An opinion poll before an election.
+
+WHY DO WE NEED SAMPLING?
+
+There are four main reasons:
+
+1. Saving time
+2. Saving money
+3. Practicality
+   Sometimes it is impossible to reach the entire population.
+4. Preventing destruction
+
+Example:
+
+If you test every product, all products may be damaged during the testing process.
+
+In real life, sampling is used in most situations.
+
+Therefore, it is very important to understand sampling methods correctly.
+
+BIAS
+
+Bias means that data or a sample systematically gives an advantage to certain individuals or groups.
+
+When bias exists, the results tend to move in a particular direction.
+
+THREE MAJOR TYPES OF BIAS
+
+1. Selection Bias
+
+The sample does not correctly represent the population.
+
+2. Response Bias
+
+People do not give accurate or truthful answers.
+
+3. Measurement Bias
+
+The measuring instrument or measurement method is incorrect.
+
+RANDOM SAMPLING
+
+Random Sampling is a sampling method in which every unit in the population has an equal probability of being selected.
+
+It is one of the best ways to reduce bias.
+
+HOW IS RANDOM SAMPLING DONE?
+
+1. Prepare a list of everyone in the population.
+
+2. Give each person a number.
+
+3. Use a random number generator.
+
+4. The people whose numbers are selected become part of the sample.
+
+ADVANTAGES:
+
+* Bias is minimized.
+* It is suitable for statistical analysis.
+* Results can be generalized to the entire population.
+* It is simple and clear.
+
+DISADVANTAGES:
+
+* A complete list of the population is required.
+* It can be expensive for large and widely distributed populations.
+* Small subgroups may not be represented in the sample.
+
+A COMMON MISTAKE:
+
+The word "random" does not mean "choosing people however you want."
+
+Example:
+
+A reporter who asks questions to people they meet on the street is NOT doing true Random Sampling.
+
+Why?
+
+Because only people passing through that particular street were selected.
+
+Therefore, they may not represent the entire population.
+
+STRATIFIED SAMPLING
+
+Stratified Sampling is a method in which a large population is first divided into smaller groups called strata, and then a sample is selected from each group in a balanced or proportional way.
+
+UNDERSTANDING STRATIFIED SAMPLING SIMPLY
+
+The main purpose of this method is:
+
+To give different groups a fair chance to be represented in the research and to make the results more accurate.
+
+EXAMPLE 1: DO STUDENTS IN A SCHOOL LIKE EATING VEGETABLES?
+
+Suppose a school has 1,000 students and you want to study their eating habits.
+
+The school has 4 grade levels:
+
+Grade 1: 400 students (40%)
+
+Grade 2: 300 students (30%)
+
+Grade 3: 200 students (20%)
+
+Grade 4: 100 students (10%)
+
+You want to select a sample of 100 students.
+
+If you choose students randomly without considering grade levels, it is possible that many or even most of the selected students will be from Grade 1.
+
+Then the opinions of students from the other grades may not be properly represented.
+
+WITH STRATIFIED SAMPLING:
+
+We select 100 students according to the percentage of each grade in the school:
+
+From Grade 1: 40 students
+
+From Grade 2: 30 students
+
+From Grade 3: 20 students
+
+From Grade 4: 10 students
+
+In this way, the 100 selected students can better represent the real structure of the entire school.
+
+EXAMPLE 2: MARKET RESEARCH FOR A MOBILE PHONE COMPANY
+
+A mobile phone company wants to know what users think about the price of a newly released phone.
+
+Because income level may affect people's opinions, the company divides people into 3 groups according to income:
+
+* Low-income people
+* Middle-income people
+* High-income people
+
+If the company takes a sample from only one group, the research result may be misleading.
+
+Therefore, the company selects a certain proportion of people from each income group and asks for their opinions.
+
+This helps produce a more balanced and fair result.
+
+BENEFITS OF STRATIFIED SAMPLING
+
+* Higher accuracy:
+  Small groups are less likely to be left out of the research.
+
+* Stronger representation:
+  The sample has a structure that is more similar to the structure of the entire population.
+
+NOTE:
+
+In scientific research, Random Sampling or Stratified Sampling is recommended.
+
+Convenience Sampling is one of the easiest methods to use.
+
+However, it can produce less reliable results.
+
+CONVENIENCE SAMPLING
+
+Convenience Sampling means selecting people who are easy for the researcher to reach.
+
+Example:
+
+A reporter asks questions to people they meet on the street.
+
+SAMPLE SIZE
+
+Generally, the larger the sample, the more reliable the results can be.
+
+However, "larger is always better" is not necessarily true.
+
+Representativeness is more important than simply having a large sample.
+
+FACTORS THAT DETERMINE SAMPLE SIZE
+
+WHEN A LARGE SAMPLE IS NEEDED:
+
+* When high accuracy is required.
+* When the population is very diverse.
+* When small subgroups also need to be analyzed.
+* When enough time and resources are available.
+
+WHEN A SMALL SAMPLE MAY BE ENOUGH:
+
+* When the population is relatively homogeneous.
+* When time and resources are limited.
+* When conducting a preliminary experiment or study.
+* When an approximate result is sufficient.
+
+GOLDEN RULE
+
+1. First, make sure that the sample is representative.
+
+2. Then, choose a sufficiently large sample whenever possible.
+
+3. Most importantly:
+
+   Use a random selection method whenever possible.
+
+REAL-LIFE EXAMPLES
+
+EXAMPLE 1: PRE-ELECTION OPINION POLL
+
+Population:
+
+All voters (millions of people)
+
+Sample:
+
+1,000 - 1,500 people
+
+Method:
+
+Stratified Random Sampling
+
+EXAMPLE 2: DRUG TEST
+
+Population:
+
+All patients
+
+Sample:
+
+500 - 3,000 patients
+
+Method:
+
+Random Assignment
+
+Important:
+
+One group receives the new drug.
+
+The other group receives a placebo.
+
+EXAMPLE 3: FACTORY QUALITY CONTROL
+
+Population:
+
+100,000 products produced per day
+
+Sample:
+
+50 products every hour
+
+Method:
+
+Systematic Sampling
+
+COMMON MISTAKES
+
+1. THINKING THAT A LARGE SAMPLE ALWAYS PRODUCES A GOOD RESULT
+
+Even if the sample is large, the result can be wrong if the sample is not representative.
+
+Example:
+
+In a 1936 public opinion poll, data were collected from approximately 2.4 million people, but the result was still wrong because the sample was not representative.
+
+2. BLINDLY TRUSTING ONLINE POLLS
+
+A statement based on the answers of 1,000 people on the internet does not necessarily represent the opinion of the entire population.
+
+Why?
+
+Because only people who visited that particular website and were willing to answer may have participated.
+
+People with strong opinions may also have been more likely to respond.
+
+3. TRUSTING STREET SURVEYS
+
+Asking questions to people encountered on the street can be one of the weakest sampling methods.
+
+Why?
+
+Because only people who:
+
+* Were passing through that street
+* Had enough time
+* Were willing to answer the questions
+
+were included in the survey.
+
+4. BLINDLY TRUSTING THE WORD "AVERAGE"
+
+Suppose we hear:
+
+"The average family income has increased."
+
+We should ask:
+
+How was the average calculated?
+
+The average income may have increased.
+
+However, this does not mean that everyone's income increased.
+
+For example, if the incomes of wealthy people increased significantly, the overall average could increase.
+
+Therefore, in some situations, the Median may be more meaningful than the Mean.
